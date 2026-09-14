@@ -8,23 +8,23 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=23&pause=1000&color=00E5FF&center=true&vCenter=true&width=760&lines=Hi+There!+I'm+Rajender+Mohan+Verma;Full-Stack+Developer+%7C+Python+Developer;Web+Developer+%7C+Java+Developer;MCA+Student+at+JIMS%2C+Rohini;Building+Practical+%26+Interactive+Projects" alt="Typing animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=23&pause=1000&color=67E8F9&center=true&vCenter=true&width=760&lines=Hi+There!+I'm+Rajender+Mohan+Verma;Full-Stack+Developer+%7C+Python+Developer;Web+Developer+%7C+Java+Developer;MCA+Student+at+JIMS%2C+Rohini;Building+Practical+%26+Interactive+Projects" alt="Typing animation" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCA-Currently%20Pursuing-8b5cf6?style=for-the-badge&logo=academia&logoColor=white" alt="MCA Currently Pursuing" />
-  <img src="https://img.shields.io/badge/JIMS-Rohini-111827?style=for-the-badge" alt="JIMS Rohini" />
-  <img src="https://img.shields.io/badge/BCA-Completed-0ea5e9?style=for-the-badge&logo=bookstack&logoColor=white" alt="BCA Completed" />
-  <img src="https://img.shields.io/badge/Delhi%2C%20India-0f766e?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Delhi India" />
+  <img src="https://img.shields.io/badge/MCA-Currently%20Pursuing-7C3AED?style=for-the-badge&logo=academia&logoColor=white" alt="MCA Currently Pursuing" />
+  <img src="https://img.shields.io/badge/JIMS-Rohini-172554?style=for-the-badge" alt="JIMS Rohini" />
+  <img src="https://img.shields.io/badge/BCA-Completed-0891B2?style=for-the-badge&logo=bookstack&logoColor=white" alt="BCA Completed" />
+  <img src="https://img.shields.io/badge/Delhi%2C%20India-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Delhi India" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RajenderMohanVerma&label=Profile%20Visitors&color=00eaff&style=for-the-badge" alt="Profile visitors" />
+  <img src="https://komarev.com/ghpvc/?username=RajenderMohanVerma&label=Profile%20Visitors&color=0891B2&style=for-the-badge" alt="Profile visitors" />
 </p>
 
 ---
 
-## 🚀 About Me
+<p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/about-header.svg" alt="About Me and Quick Highlights" width="100%" /></p>
 
 Hi, I'm **Rajender Mohan Verma**, a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy building practical software solutions, responsive web applications and user-focused digital experiences.
 
@@ -36,7 +36,7 @@ Hi, I'm **Rajender Mohan Verma**, a **BCA graduate** and currently pursuing **MC
 - 🌱 Continuously learning modern technologies through practical projects
 - 🎯 Goal: Build reliable, scalable and user-friendly software products
 
-## ✨ Quick Highlights
+### ✨ Quick Highlights
 
 - 🌐 **Frontend:** HTML, CSS, JavaScript, React, Angular, Bootstrap
 - 🐍 **Backend:** Python, Django, Flask, Node.js, Express.js
@@ -49,7 +49,7 @@ Hi, I'm **Rajender Mohan Verma**, a **BCA graduate** and currently pursuing **MC
 
 ---
 
-## 🛠️ Tech Stack & Tools
+<p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/stack-header.svg" alt="Tech Stack and Tools" width="100%" /></p>
 
 ### 💻 Programming Languages
 <table align="center">
@@ -116,7 +116,7 @@ Hi, I'm **Rajender Mohan Verma**, a **BCA graduate** and currently pursuing **MC
 
 ---
 
-## 📂 Featured Projects
+<p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/projects-header.svg" alt="Featured Projects" width="100%" /></p>
 
 ### 🎓 1. DBIT Alumni Hub — Alumni Connection Network
 
@@ -268,7 +268,9 @@ A responsive neon-themed calculator built with vanilla web technologies, combini
 
 ---
 
-## 🏆 Achievements & Certifications
+<p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/journey-header.svg" alt="Achievements, Focus and Professional Interests" width="100%" /></p>
+
+### 🏆 Achievements & Certifications
 
 - 🥇 **LeetCode 200 Days Badge — 2026**
 - 🥇 **LeetCode 100 Days Badge — 2025**
@@ -282,16 +284,14 @@ A responsive neon-themed calculator built with vanilla web technologies, combini
 - 🧪 **OneRoadmap Frontend Test — 75% Score**
 - 🌐 **SkillCup Community — Google Student Ambassador Session**
 
----
-
-## 📊 GitHub Highlights
+### 📊 GitHub Highlights
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/github-highlights.svg" alt="GitHub Highlights" width="760" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/RajenderMohanVerma?tab=repositories"><img src="https://img.shields.io/badge/Repositories-Explore-181717?style=for-the-badge&logo=github" alt="Repositories" /></a>
+  <a href="https://github.com/RajenderMohanVerma?tab=repositories"><img src="https://img.shields.io/badge/Repositories-Explore-172554?style=for-the-badge&logo=github" alt="Repositories" /></a>
   <a href="https://github.com/RajenderMohanVerma"><img src="https://img.shields.io/badge/GitHub-RajenderMohanVerma-111827?style=for-the-badge&logo=github" alt="GitHub" /></a>
 </p>
 
@@ -299,17 +299,13 @@ A responsive neon-themed calculator built with vanilla web technologies, combini
   <img src="https://streak-stats.demolab.com/?user=RajenderMohanVerma&theme=tokyonight&hide_border=false" alt="GitHub contribution streak" />
 </p>
 
----
-
-## 📈 Contribution Activity
+### 📈 Contribution Activity
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/contribution-activity.svg" alt="Contribution Activity" width="900" />
 </p>
 
----
-
-## 🎯 Current Focus
+### 🎯 Current Focus
 
 - 🔥 Improving **Full-Stack Development** skills
 - 🐍 Building stronger applications with **Python, Django and Flask**
@@ -319,15 +315,13 @@ A responsive neon-themed calculator built with vanilla web technologies, combini
 - 🧠 Practicing **DSA and coding problems**
 - 🚀 Building and deploying practical projects
 
----
-
-## 💼 Professional Interests
+### 💼 Professional Interests
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Full--Stack%20Developer-⚡-brightgreen?style=for-the-badge" alt="Full Stack Developer" />
+  <img src="https://img.shields.io/badge/Full--Stack%20Developer-⚡-0891B2?style=for-the-badge" alt="Full Stack Developer" />
   <img src="https://img.shields.io/badge/Python%20Developer-🐍-3776AB?style=for-the-badge" alt="Python Developer" />
-  <img src="https://img.shields.io/badge/Web%20Developer-🌐-0ea5e9?style=for-the-badge" alt="Web Developer" />
-  <img src="https://img.shields.io/badge/Java%20Developer-☕-red?style=for-the-badge" alt="Java Developer" />
+  <img src="https://img.shields.io/badge/Web%20Developer-🌐-4F46E5?style=for-the-badge" alt="Web Developer" />
+  <img src="https://img.shields.io/badge/Java%20Developer-☕-7C3AED?style=for-the-badge" alt="Java Developer" />
 </p>
 
 ---
@@ -338,11 +332,9 @@ A responsive neon-themed calculator built with vanilla web technologies, combini
   <a href="mailto:rajendramohan7800@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/rajender-mohan-verma-10418432a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/RajenderMohanVerma"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://rajender-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-6f42c1?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://rajender-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-6F42C1?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.instagram.com/rajender_maurya.01/"><img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
-
----
 
 ## 💭 Development Philosophy
 
@@ -356,5 +348,5 @@ I believe the best way to learn technology is by building real projects, solving
 <p align="center">💙 Keep learning. Keep building. Keep growing.</p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00eaff&height=120&section=footer" alt="Footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0891B2&height=120&section=footer" alt="Footer" />
 </p>
