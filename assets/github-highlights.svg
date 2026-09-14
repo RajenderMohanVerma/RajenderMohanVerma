@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250">
+<rect width="760" height="250" rx="14" fill="#161b22"/>
+<text x="34" y="42" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="22" font-weight="700">GitHub Highlights</text>
+<text x="34" y="68" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">RajenderMohanVerma • Profile activity</text>
+<line x1="253" y1="92" x2="253" y2="215" stroke="#30363d"/>
+<line x1="506" y1="92" x2="506" y2="215" stroke="#30363d"/>
+<text x="126" y="132" text-anchor="middle" fill="#58a6ff" font-family="Arial, sans-serif" font-size="38" font-weight="700">230</text>
+<text x="126" y="158" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">Total Contributions</text>
+<text x="126" y="184" text-anchor="middle" fill="#6e7681" font-family="Arial, sans-serif" font-size="11">Current profile snapshot</text>
+<text x="379" y="132" text-anchor="middle" fill="#bc8cff" font-family="Arial, sans-serif" font-size="38" font-weight="700">5</text>
+<text x="379" y="158" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">Current Streak</text>
+<text x="379" y="184" text-anchor="middle" fill="#6e7681" font-family="Arial, sans-serif" font-size="11">Sep 10 – Sep 14</text>
+<text x="633" y="132" text-anchor="middle" fill="#79c0ff" font-family="Arial, sans-serif" font-size="38" font-weight="700">8</text>
+<text x="633" y="158" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">Longest Streak</text>
+<text x="633" y="184" text-anchor="middle" fill="#6e7681" font-family="Arial, sans-serif" font-size="11">Feb 6 – Feb 13</text>
+<text x="34" y="228" fill="#6e7681" font-family="Arial, sans-serif" font-size="10">Profile snapshot • Update this SVG when you want to refresh displayed numbers.</text>
+</svg>
