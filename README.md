@@ -1,10 +1,10 @@
 <!-- ============================================================
      👋 RAJENDER MOHAN VERMA — GITHUB PROFILE README
-     Professional, responsive and recruiter-friendly profile.
+     Professional, interactive and recruiter-friendly profile.
 ============================================================= -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00eaff&height=180&section=header&text=Rajender%20Mohan%20Verma&fontSize=42&fontColor=ffffff&animation=fadeIn" alt="Rajender Mohan Verma" />
+  <img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/profile-banner.svg" alt="Rajender Mohan Verma animated profile banner" width="100%" />
 </p>
 
 <p align="center">
