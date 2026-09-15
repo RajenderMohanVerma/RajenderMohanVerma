@@ -110,7 +110,7 @@ Hi, I'm **Rajender Mohan Verma**, a **BCA graduate** and currently pursuing **MC
 <td align="center"><img src="https://skillicons.dev/icons?i=vscode" width="55"/><br/><b>VS Code</b></td>
 <td align="center"><img src="https://skillicons.dev/icons?i=postman" width="55"/><br/><b>Postman</b></td>
 <td align="center"><img src="https://skillicons.dev/icons?i=vercel" width="55"/><br/><b>Vercel</b></td>
-<td align="center"><img src="https://skillicons.dev/icons?i=render" width="55"/><br/><b>Render</b></td>
+<td align="center"><img src="https://cdn.simpleicons.org/render/46E3B7" width="55"/><br/><b>Render</b></td>
 <td align="center"><img src="https://skillicons.dev/icons?i=figma" width="55"/><br/><b>Figma</b></td>
 </tr>
 </table>
