@@ -4,7 +4,11 @@
 ============================================================= -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/profile-banner.svg" alt="Rajender Mohan Verma animated profile banner" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
+    <img src="./assets/dark.svg" alt="Rajender Mohan Verma premium developer profile" width="100%">
+  </picture>
 </p>
 
 <p align="center">
