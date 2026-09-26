@@ -18,7 +18,7 @@ def render_base(svg_path: Path, light: bool) -> Image.Image:
     # Remove only the animated name group. GitHub's README image pipeline can
     # render the SVG as a static image, so the GIF supplies the actual motion.
     svg = re.sub(
-        r'<g clip-path="url\(#nameClip\)">.*?</g>\s*',
+        r'<g clip-path="url\(#nameClip\)">.*?</g>\s*</g>\s*',
         "",
         svg,
         count=1,
