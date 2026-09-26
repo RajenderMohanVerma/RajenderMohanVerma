@@ -29,14 +29,12 @@
 
 
 <g fill="#F8FAFC" font-family="ui-sans-serif,system-ui,Arial,sans-serif" font-size="30" font-weight="800"><rect x="76" y="194" width="0" height="3" rx="1.5" fill="#22D3EE">
-    <animate attributeName="width" values="0;110;110;110;110" dur="9s" repeatCount="indefinite"/>
   </rect>
   <clipPath id="nameClip"><rect x="76" y="150" width="410" height="58" rx="8"/></clipPath>
 <g clip-path="url(#nameClip)">
   <g font-family="ui-sans-serif,system-ui,Arial,sans-serif" font-size="34" font-weight="800" fill="#F8FAFC">
     <text x="76" y="190">Rajender Mohan Verma</text>
     <text x="556" y="190">Rajender Mohan Verma</text>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-480 0" dur="8s" repeatCount="indefinite"/>
   </g>
 </g>
   \n<text x="76" y="218" fill="#22D3EE" font-size="15" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">dev.rajendermohan@github</text>
@@ -60,7 +58,6 @@
 <text x="76" y="549" fill="#F8FAFC" font-size="13" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Learn → Build → Test → Improve → Deploy</text>
 <rect x="76" y="577" width="414" height="4" rx="2" fill="#263449"/>
 <rect x="76" y="594" width="178" height="4" rx="2" fill="url(#accent)">
-  <animate attributeName="width" values="178;350;178" dur="4.8s" repeatCount="indefinite"/>
 </rect>
 
 </g>
@@ -72,7 +69,6 @@
 
 <rect x="550" y="225" width="578" height="3" rx="2" fill="#263449"/>
 <rect x="550" y="225" width="210" height="3" rx="2" fill="url(#accent)">
-  <animate attributeName="width" values="210;430;210" dur="4.5s" repeatCount="indefinite"/>
 </rect>
 
 <!-- cards -->
@@ -99,5 +95,5 @@
 </g>
 <rect x="550" y="604" width="578" height="34" rx="10" fill="#020617" stroke="#263449"/>
 <text x="570" y="626" fill="#94A3B8" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">github.com/RajenderMohanVerma</text>
-<circle cx="1100" cy="621" r="5" fill="#34D399"><animate attributeName="opacity" values=".35;1;.35" dur="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="1100" cy="621" r="5" fill="#34D399"></circle>
 </svg>
