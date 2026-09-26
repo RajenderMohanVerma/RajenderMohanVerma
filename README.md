@@ -1,6 +1,7 @@
 <!-- ============================================================
      👋 RAJENDER MOHAN VERMA — GITHUB PROFILE README
      Professional, interactive and recruiter-friendly profile.
+     Marquee hero is generated as a GitHub-compatible animated GIF.
 ============================================================= -->
 
 <p align="center">
