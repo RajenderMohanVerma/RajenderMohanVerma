@@ -39,15 +39,7 @@
     <animateTransform attributeName="transform" type="translate" from="0 0" to="-480 0" dur="8s" repeatCount="indefinite"/>
   </g>
 </g>
-  <text x="246" y="186" opacity="0" font-size="30">Mohan
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.333;0.334;1" dur="9s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 12;0 0;0 -3;0 0" keyTimes="0;0.41;0.47;0.55" dur="9s" repeatCount="indefinite"/>
-  </text>
-  <text x="365" y="186" opacity="0" font-size="30">Verma
-    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.666;0.667;1" dur="9s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 12;0 0;0 -3;0 0" keyTimes="0;0.74;0.80;0.88" dur="9s" repeatCount="indefinite"/>
-  </text>
-</g>\n<text x="76" y="218" fill="#22D3EE" font-size="15" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">dev.rajendermohan@github</text>
+  \n<text x="76" y="218" fill="#22D3EE" font-size="15" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">dev.rajendermohan@github</text>
 
 <line x1="76" y1="230" x2="490" y2="230" stroke="#263449"/>
 
