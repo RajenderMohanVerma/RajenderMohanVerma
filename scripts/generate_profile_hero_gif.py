@@ -15,17 +15,16 @@ FONT_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 def render_base(svg_path: Path, light: bool) -> Image.Image:
     svg = svg_path.read_text(encoding="utf-8")
 
-    # Remove the SVG/SMIL marquee itself. GitHub's README image pipeline can
+    # Remove only the animated name group. GitHub's README image pipeline can
     # render the SVG as a static image, so the GIF supplies the actual motion.
     svg = re.sub(
-        r'<g clip-path="url\(#nameClip\)">.*?</g>\s*</g>',
+        r'<g clip-path="url\(#nameClip\)">.*?</g>\s*',
         "",
         svg,
+        count=1,
         flags=re.DOTALL,
     )
 
-    # The light SVG previously used a light/white marquee name. The GIF draws
-    # the name explicitly so it remains readable in both themes.
     png = cairosvg.svg2png(
         bytestring=svg.encode("utf-8"),
         output_width=1200,
@@ -47,19 +46,21 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
         layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
         draw = ImageDraw.Draw(layer)
 
-        # Exact marquee viewport from the existing hero design.
         clip = (76, 150, 486, 208)
-        draw.text((76 - int(travel * index / (FRAMES - 1)), 150),
-                  NAME, font=font, fill=name_color)
-        draw.text((76 - int(travel * index / (FRAMES - 1)) + travel, 150),
-                  NAME, font=font, fill=name_color)
+        offset = int(travel * index / (FRAMES - 1))
+        draw.text((76 - offset, 150), NAME, font=font, fill=name_color)
+        draw.text((76 - offset + travel, 150), NAME, font=font, fill=name_color)
 
         mask = Image.new("L", frame.size, 0)
         mask_draw = ImageDraw.Draw(mask)
         mask_draw.rounded_rectangle(clip, radius=8, fill=255)
-        frame.alpha_composite(Image.composite(layer, Image.new("RGBA", frame.size), mask))
+        frame.alpha_composite(
+            Image.composite(layer, Image.new("RGBA", frame.size), mask)
+        )
 
-        frames.append(frame.convert("P", palette=Image.Palette.ADAPTIVE, colors=128))
+        frames.append(
+            frame.convert("P", palette=Image.Palette.ADAPTIVE, colors=128)
+        )
 
     frames[0].save(
         output_path,
