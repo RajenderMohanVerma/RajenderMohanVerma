@@ -312,6 +312,15 @@ A responsive neon-themed calculator built with vanilla web technologies, combini
   <img src="https://raw.githubusercontent.com/aasz253/aasz253/main/profile-3d-contrib/profile-season-animate.svg" alt="3D GitHub Contribution Activity" width="100%" />
 </p>
 
+### 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aasz253/aasz253/output/github-contribution-grid-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/aasz253/aasz253/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
+  </picture>
+</p>
+
 ### 🎯 Current Focus
 
 - 🔥 Improving **Full-Stack Development** skills
