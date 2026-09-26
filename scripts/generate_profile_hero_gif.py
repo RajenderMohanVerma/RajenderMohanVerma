@@ -13,20 +13,10 @@ FONT_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 
 def render_base(svg_path: Path, light: bool) -> Image.Image:
-    svg = svg_path.read_text(encoding="utf-8")
-
-    # Remove only the animated name group. GitHub's README image pipeline can
-    # render the SVG as a static image, so the GIF supplies the actual motion.
-    svg = re.sub(
-        r'<clipPath id="nameClip">.*?</g>\s*</g>\s*',
-        '<text x="76" y="190" fill="#F8FAFC" font-family="ui-sans-serif,system-ui,Arial,sans-serif" font-size="34" font-weight="800">Rajender Mohan Verma</text>',
-        svg,
-        count=1,
-        flags=re.DOTALL,
-    )
-
+    # Render the original hero unchanged. The marquee is composited on top,
+    # so the full container/card layout is preserved exactly.
     png = cairosvg.svg2png(
-        bytestring=svg.encode("utf-8"),
+        url=str(svg_path),
         output_width=1200,
         output_height=700,
     )
@@ -46,7 +36,9 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
         layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
         draw = ImageDraw.Draw(layer)
 
-        clip = (76, 150, 486, 208)
+        clip = (76, 145, 486, 198)
+        # Hide the static SVG name underneath, then draw the moving marquee.
+        draw.rounded_rectangle(clip, radius=8, fill=(15, 23, 42, 255))
         offset = int(travel * index / (FRAMES - 1))
         draw.text((76 - offset, 150), NAME, font=font, fill=name_color)
         draw.text((76 - offset + travel, 150), NAME, font=font, fill=name_color)
