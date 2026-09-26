@@ -123,7 +123,7 @@ Hi, I'm **Rajender Mohan Verma**, a **BCA graduate** and currently pursuing **MC
 
 <p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/projects-header.svg" alt="Featured Projects" width="100%" /></p>
 
-### 🎓 1. DBIT Alumni Hub — Alumni Connection Network
+### 🎓 1. Alumni Hub — Alumni Connection Network
 
 A professional **Flask-based Alumni Management System** connecting students, alumni and faculty through networking, career opportunities, real-time communication and intelligent recommendations.
 
