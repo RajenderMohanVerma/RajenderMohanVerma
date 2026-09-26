@@ -28,9 +28,7 @@
 <rect x="48" y="128" width="470" height="510" rx="20" fill="#0F172A" stroke="#263449" stroke-opacity=".78"/>
 
 
-<g fill="#F8FAFC" font-family="ui-sans-serif,system-ui,Arial,sans-serif" font-size="30" font-weight="800">
-  <text x="76" y="186">Rajender<tspan dx="12">Mohan</tspan><tspan dx="12">Verma</tspan></text>
-  <rect x="76" y="194" width="0" height="3" rx="1.5" fill="#22D3EE">
+<g fill="#F8FAFC" font-family="ui-sans-serif,system-ui,Arial,sans-serif" font-size="30" font-weight="800"><rect x="76" y="194" width="0" height="3" rx="1.5" fill="#22D3EE">
     <animate attributeName="width" values="0;110;110;110;110" dur="9s" repeatCount="indefinite"/>
   </rect>
   <text x="76" y="186" opacity="0" font-size="30">Rajender
