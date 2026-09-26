@@ -1,3 +1,4 @@
+<!-- profile-hero: stable container + smooth marquee -->
 <!-- ============================================================
      👋 RAJENDER MOHAN VERMA — GITHUB PROFILE README
      Professional, interactive and recruiter-friendly profile.
