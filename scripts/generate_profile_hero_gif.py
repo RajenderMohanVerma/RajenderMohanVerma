@@ -6,8 +6,8 @@ import cairosvg
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-FRAMES = 32
-DURATION_MS = 250
+FRAMES = 64
+DURATION_MS = 100
 NAME = "Rajender Mohan Verma"
 FONT_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
@@ -39,7 +39,7 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
         clip = (76, 145, 486, 198)
         # Hide the static SVG name underneath, then draw the moving marquee.
         draw.rounded_rectangle(clip, radius=8, fill=(15, 23, 42, 255))
-        offset = int(travel * index / (FRAMES - 1))
+        offset = int(travel * index / FRAMES)
         draw.text((76 - offset, 150), NAME, font=font, fill=name_color)
         draw.text((76 - offset + travel, 150), NAME, font=font, fill=name_color)
 
