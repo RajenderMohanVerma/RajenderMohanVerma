@@ -38,7 +38,7 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
 
         clip = (76, 145, 486, 198)
         # Hide the static SVG name underneath, then draw the moving marquee.
-        draw.rounded_rectangle(clip, radius=8, fill=(15, 23, 42, 255))
+        draw.rounded_rectangle(clip, radius=8, fill=((241, 245, 249, 255) if light else (15, 23, 42, 255)))
         offset = int(travel * index / FRAMES)
         draw.text((76 - offset, 150), NAME, font=font, fill=name_color)
         draw.text((76 - offset + travel, 150), NAME, font=font, fill=name_color)
