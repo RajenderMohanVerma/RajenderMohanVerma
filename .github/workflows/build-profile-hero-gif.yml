@@ -1,0 +1,40 @@
+name: Build profile hero GIF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "assets/profile-hero-20260926-dark.svg"
+      - "assets/profile-hero-20260926-light.svg"
+      - "scripts/generate_profile_hero_gif.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install rendering dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pillow cairosvg
+
+      - name: Generate animated hero GIFs
+        run: python scripts/generate_profile_hero_gif.py
+
+      - name: Commit generated GIFs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-hero-marquee-dark.gif assets/profile-hero-marquee-light.gif
+          if git diff --cached --quiet; then
+            echo "No GIF changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: regenerate animated profile hero"
+          git push
