@@ -306,10 +306,10 @@ A responsive neon-themed calculator built with vanilla web technologies, combini
   <img src="https://streak-stats.demolab.com/?user=RajenderMohanVerma&theme=tokyonight&hide_border=false" alt="GitHub contribution streak" />
 </p>
 
-### 📈 Contribution Activity
+### 📊 3D Contribution Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/contribution-activity.svg" alt="Contribution Activity" width="900" />
+  <img src="https://raw.githubusercontent.com/aasz253/aasz253/main/profile-3d-contrib/profile-season-animate.svg" alt="3D GitHub Contribution Activity" width="100%" />
 </p>
 
 ### 🎯 Current Focus
