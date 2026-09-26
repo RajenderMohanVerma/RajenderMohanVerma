@@ -5,9 +5,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-20260926-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-20260926-light.svg">
-    <img src="./assets/dark.svg" alt="Rajender Mohan Verma premium developer profile" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-marquee-dark.gif">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-marquee-light.gif">
+    <img src="./assets/profile-hero-marquee-dark.gif" alt="Rajender Mohan Verma premium developer profile" width="100%">
   </picture>
 </p>
 
