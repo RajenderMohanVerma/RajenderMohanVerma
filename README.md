@@ -309,7 +309,7 @@ A responsive neon-themed calculator built with vanilla web technologies, combini
 ### 📊 3D Contribution Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aasz253/aasz253/main/profile-3d-contrib/profile-season-animate.svg" alt="3D GitHub Contribution Activity" width="100%" />
+  <img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/profile-3d-contrib/profile-season-animate.svg" alt="Rajender Mohan Verma 3D GitHub Contribution Activity" width="100%" />
 </p>
 
 ### 🐍 Contribution Snake
