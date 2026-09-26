@@ -356,3 +356,4 @@ I believe the best way to learn technology is by building real projects, solving
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0891B2&height=120&section=footer" alt="Footer" />
 </p>
+\n
