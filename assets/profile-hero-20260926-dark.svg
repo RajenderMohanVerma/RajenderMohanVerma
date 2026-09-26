@@ -63,6 +63,8 @@
   <animate attributeName="width" values="178;350;178" dur="4.8s" repeatCount="indefinite"/>
 </rect>
 
+</g>
+
 <!-- right: clean identity -->
 <text x="550" y="112" fill="#22D3EE" font-size="12" letter-spacing="2.6" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">SYSTEM.INFO</text>
 <text x="550" y="164" fill="#F8FAFC" font-size="40" font-weight="750" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Rajender Mohan Verma</text>
