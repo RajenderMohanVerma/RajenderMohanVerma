@@ -5,8 +5,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-v2-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-v2-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-final-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-final-light.svg">
     <img src="./assets/dark.svg" alt="Rajender Mohan Verma premium developer profile" width="100%">
   </picture>
 </p>
