@@ -23,8 +23,8 @@ def render_base(svg_path: Path) -> Image.Image:
 def make_gradient(width: int, height: int, colors: list[tuple[int, int, int]]) -> Image.Image:
     image = Image.new("RGBA", (width, height), (0, 0, 0, 0))
     pixels = image.load()
-
     segments = len(colors) - 1
+
     for x in range(width):
         position = x / max(1, width - 1) * segments
         segment = min(int(position), segments - 1)
@@ -38,29 +38,14 @@ def make_gradient(width: int, height: int, colors: list[tuple[int, int, int]]) -
     return image
 
 
-def paste_wrapped_gradient(
-    frame: Image.Image,
-    gradient: Image.Image,
-    x: int,
-    y: int,
-    width: int,
-    height: int,
-    clip_left: int,
-    clip_right: int,
-) -> None:
-    # Repeat the gradient horizontally so the moving band never disappears.
-    band = Image.new("RGBA", (width, height), (0, 0, 0, 0))
-    for start in range(-gradient.width, width + gradient.width, gradient.width):
-        band.alpha_composite(gradient, (start, 0))
+def shifted_gradient(base_gradient: Image.Image, width: int, shift: int) -> Image.Image:
+    """Return a fixed-width gradient whose colors move without changing its bounds."""
+    canvas = Image.new("RGBA", (base_gradient.width * 2, base_gradient.height), (0, 0, 0, 0))
+    canvas.alpha_composite(base_gradient, (0, 0))
+    canvas.alpha_composite(base_gradient, (base_gradient.width, 0))
 
-    visible = band.crop((0, 0, width, height))
-    mask = Image.new("L", frame.size, 0)
-    mask_draw = ImageDraw.Draw(mask)
-    mask_draw.rectangle((clip_left, y, clip_right, y + height), fill=255)
-
-    layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
-    layer.alpha_composite(visible, (x, y))
-    frame.alpha_composite(Image.composite(layer, Image.new("RGBA", frame.size), mask))
+    start = shift % base_gradient.width
+    return canvas.crop((start, 0, start + width, base_gradient.height))
 
 
 def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
@@ -79,38 +64,36 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
 
     font = ImageFont.truetype(FONT_PATH, 34)
 
-    # Exact name window inside the left card.
+    # The container/card is always taken directly from the SVG.
+    # Animation is restricted to these small regions only.
     name_box = (76, 150, 486, 198)
+    top_line = (550, 224, 1128, 230)
+    bottom_line = (76, 592, 254, 600)
+
     bbox = font.getbbox(NAME)
     text_width = bbox[2] - bbox[0]
     travel = text_width + 52
 
-    # Exact accent-line regions already present in the SVG.
-    top_line = (550, 224, 1128, 230)
-    bottom_line = (76, 592, 254, 600)
+    top_width = top_line[2] - top_line[0]
+    bottom_width = bottom_line[2] - bottom_line[0]
 
-    gradient_top = make_gradient(210, 4, gradient_colors)
-    gradient_bottom = make_gradient(178, 4, gradient_colors)
+    top_gradient = make_gradient(420, 4, gradient_colors)
+    bottom_gradient = make_gradient(356, 4, gradient_colors)
 
     frames = []
 
     for index in range(FRAMES):
         frame = base.copy()
+        phase = index / FRAMES
+
+        # ---- Moving name -------------------------------------------------
         offset = int(round(travel * index / FRAMES))
+        name_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
+        name_draw = ImageDraw.Draw(name_layer)
 
-        # Replace only the static name pixels. The surrounding card/container
-        # remains untouched because the mask is limited to the name window.
-        overlay = Image.new("RGBA", frame.size, (0, 0, 0, 0))
-        draw = ImageDraw.Draw(overlay)
-        draw.rectangle(name_box, fill=card_color)
-
-        draw.text(
-            (76 - offset, 150),
-            NAME,
-            font=font,
-            fill=name_color,
-        )
-        draw.text(
+        name_draw.rounded_rectangle(name_box, radius=8, fill=card_color)
+        name_draw.text((76 - offset, 150), NAME, font=font, fill=name_color)
+        name_draw.text(
             (76 - offset + travel, 150),
             NAME,
             font=font,
@@ -118,34 +101,56 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
         )
 
         name_mask = Image.new("L", frame.size, 0)
-        ImageDraw.Draw(name_mask).rounded_rectangle(name_box, radius=8, fill=255)
+        ImageDraw.Draw(name_mask).rounded_rectangle(
+            name_box,
+            radius=8,
+            fill=255,
+        )
         frame.alpha_composite(
-            Image.composite(overlay, Image.new("RGBA", frame.size), name_mask)
+            Image.composite(
+                name_layer,
+                Image.new("RGBA", frame.size, (0, 0, 0, 0)),
+                name_mask,
+            )
         )
 
-        # Restore the thin base line first, then animate the colored segment.
+        # ---- Moving colored accent lines --------------------------------
         line_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
         line_draw = ImageDraw.Draw(line_layer)
 
+        # First restore the original thin line background.
         line_draw.rectangle(top_line, fill=line_color)
         line_draw.rectangle(bottom_line, fill=line_color)
 
-        # Moving top accent.
-        top_x = 550 + int((578 + 210) * index / FRAMES) - 210
-        top_segment = gradient_top
-        line_layer.alpha_composite(top_segment, (top_x, 225))
+        top_shift = int(phase * top_gradient.width)
+        bottom_shift = int(phase * bottom_gradient.width)
 
-        # Moving bottom workflow accent.
-        bottom_x = 76 + int((178 + 236) * index / FRAMES) - 178
-        line_layer.alpha_composite(gradient_bottom, (bottom_x, 594))
+        top_visible = shifted_gradient(top_gradient, top_width, top_shift)
+        bottom_visible = shifted_gradient(bottom_gradient, bottom_width, bottom_shift)
+
+        line_layer.alpha_composite(top_visible, (top_line[0], top_line[1] + 1))
+        line_layer.alpha_composite(
+            bottom_visible,
+            (bottom_line[0], bottom_line[1] + 2),
+        )
 
         line_mask = Image.new("L", frame.size, 0)
         line_mask_draw = ImageDraw.Draw(line_mask)
-        line_mask_draw.rectangle((550, 224, 1128, 230), fill=255)
-        line_mask_draw.rectangle((76, 592, 490, 600), fill=255)
+        line_mask_draw.rectangle(
+            (top_line[0], top_line[1], top_line[2], top_line[3]),
+            fill=255,
+        )
+        line_mask_draw.rectangle(
+            (bottom_line[0], bottom_line[1], bottom_line[2], bottom_line[3]),
+            fill=255,
+        )
 
         frame.alpha_composite(
-            Image.composite(line_layer, Image.new("RGBA", frame.size), line_mask)
+            Image.composite(
+                line_layer,
+                Image.new("RGBA", frame.size, (0, 0, 0, 0)),
+                line_mask,
+            )
         )
 
         frames.append(
@@ -175,4 +180,4 @@ make_gif(
     light=True,
 )
 
-print("Generated profile hero GIFs with preserved container and animated accent lines.")
+print("Generated hero GIFs: fixed container + moving name + moving accent gradients.")
