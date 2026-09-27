@@ -312,13 +312,22 @@ A responsive neon-themed calculator built with vanilla web technologies, combini
   <img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/profile-3d-contrib/profile-season-animate.svg" alt="Rajender Mohan Verma 3D GitHub Contribution Activity" width="100%" />
 </p>
 
+<p align="center">
+  <sub>Automatically regenerated every day from my GitHub contribution activity.</sub>
+</p>
+
 ### 🐍 Contribution Snake
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aasz253/aasz253/output/github-contribution-grid-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/aasz253/aasz253/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/output/github-contribution-grid-snake-dark.svg" alt="Rajender Mohan Verma GitHub Contribution Snake" width="100%" />
   </picture>
+</p>
+
+<p align="center">
+  <sub>Automatically regenerated every day from my GitHub contribution activity.</sub>
 </p>
 
 ### 🎯 Current Focus
