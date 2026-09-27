@@ -1,99 +1,91 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="Rajender Mohan Verma developer profile">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#050816"/><stop offset=".55" stop-color="#081426"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".14"/>
-  </linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#040712"/><stop offset=".52" stop-color="#091426"/><stop offset="1" stop-color="#111B3A"/></linearGradient>
   <linearGradient id="accent"><stop stop-color="#8B5CF6"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#22D3EE" stop-opacity=".14"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#263449" stroke-opacity=".10"/></pattern>
-  <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#22D3EE" flood-opacity=".10"/></filter>
+  <linearGradient id="accent2"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#22D3EE" stop-opacity=".18"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#334155" stroke-opacity=".12"/></pattern>
+  <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#020617" flood-opacity=".55"/></filter>
 </defs>
 
 <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
 <rect width="1200" height="700" rx="28" fill="url(#grid)"/>
-<circle cx="1050" cy="115" r="260" fill="url(#glow)"/>
-<circle cx="160" cy="600" r="220" fill="url(#glow)" opacity=".5"/>
+<circle cx="1030" cy="95" r="290" fill="url(#glow)"/>
+<circle cx="110" cy="610" r="230" fill="#8B5CF6" opacity=".055"/>
 
-<rect x="22" y="22" width="1156" height="656" rx="25" fill="#0B1220" fill-opacity=".80" stroke="#263449" stroke-opacity=".82" filter="url(#shadow)"/>
-
-<!-- top terminal bar -->
-<rect x="22" y="22" width="1156" height="56" rx="25" fill="#070D1A" fill-opacity=".96"/>
+<rect x="22" y="22" width="1156" height="656" rx="28" fill="#0B1220" fill-opacity=".94" stroke="#263449" filter="url(#shadow)"/>
+<rect x="22" y="22" width="1156" height="56" rx="28" fill="#070D1A"/>
 <path d="M22 78H1178" stroke="#263449"/>
 <circle cx="51" cy="50" r="6" fill="#EF4444"/><circle cx="71" cy="50" r="6" fill="#F59E0B"/><circle cx="91" cy="50" r="6" fill="#22C55E"/>
-<text x="120" y="55" fill="#94A3B8" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">dev.rajendramohan</text>
-<text x="1145" y="55" text-anchor="end" fill="#34D399" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">● ONLINE</text>
+<text x="120" y="55" fill="#94A3B8" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">RAJENDER.DEV // PROFILE</text>
+<text x="1080" y="55" text-anchor="end" fill="#64748B" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">BUILD 2026.09</text>
+<circle cx="1110" cy="50" r="5" fill="#34D399"/><text x="1148" y="55" text-anchor="end" fill="#34D399" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">ONLINE</text>
 
-<!-- left: terminal / developer snapshot -->
-<text x="55" y="112" fill="#22D3EE" font-size="12" letter-spacing="2.6" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">DEVELOPER.SNAPSHOT</text>
-<rect x="48" y="128" width="470" height="510" rx="20" fill="#0F172A" stroke="#263449" stroke-opacity=".78"/>
+<!-- left profile panel -->
+<rect x="48" y="104" width="430" height="544" rx="22" fill="#0F172A" stroke="#263449"/>
+<text x="76" y="137" fill="#22D3EE" font-size="11" letter-spacing="2.4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">01 / DEVELOPER.SNAPSHOT</text>
+<rect x="76" y="158" width="374" height="92" rx="16" fill="#0B1220" stroke="#263449"/>
+<circle cx="103" cy="188" r="16" fill="#172554" stroke="#22D3EE"/>
+<text x="103" y="194" text-anchor="middle" fill="#E0F2FE" font-size="15" font-weight="800" font-family="ui-sans-serif,system-ui,Arial,sans-serif">RV</text>
+<text x="132" y="187" fill="#F8FAFC" font-size="20" font-weight="800" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Rajender Mohan Verma</text>
+<text x="132" y="211" fill="#22D3EE" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">MCA Student · Full-Stack Developer</text>
+<text x="132" y="232" fill="#64748B" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">Delhi · India</text>
 
+<text x="76" y="282" fill="#8B5CF6" font-size="10" letter-spacing="2" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">PROFILE</text>
+<text x="76" y="308" fill="#CBD5E1" font-size="13" font-family="ui-sans-serif,system-ui,Arial,sans-serif">BCA Graduate · MCA — JIMS, Rohini</text>
+<text x="76" y="331" fill="#94A3B8" font-size="12" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Building practical web, backend and DSA projects.</text>
 
-<g fill="#F8FAFC" font-family="ui-sans-serif,system-ui,Arial,sans-serif" font-size="30" font-weight="800"><rect x="76" y="194" width="0" height="3" rx="1.5" fill="#22D3EE">
-  </rect>
-  <clipPath id="nameClip"><rect x="76" y="150" width="410" height="58" rx="8"/></clipPath>
-<g clip-path="url(#nameClip)">
-  <g font-family="ui-sans-serif,system-ui,Arial,sans-serif" font-size="34" font-weight="800" fill="#F8FAFC">
-    <text x="76" y="190">Rajender Mohan Verma</text>
-    <text x="556" y="190">Rajender Mohan Verma</text>
-  </g>
-</g>
-  \n<text x="76" y="218" fill="#22D3EE" font-size="15" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">dev.rajendermohan@github</text>
-
-<line x1="76" y1="230" x2="490" y2="230" stroke="#263449"/>
-
-<text x="76" y="260" fill="#8B5CF6" font-size="11" letter-spacing="1.8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">PROFILE</text>
-<text x="76" y="290" fill="#94A3B8" font-size="13" font-family="ui-sans-serif,system-ui,Arial,sans-serif">BCA Graduate</text>
-<text x="76" y="315" fill="#94A3B8" font-size="13" font-family="ui-sans-serif,system-ui,Arial,sans-serif">MCA Student · JIMS, Rohini</text>
-<text x="76" y="340" fill="#94A3B8" font-size="13" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Full-Stack Development</text>
-
-<text x="76" y="378" fill="#22D3EE" font-size="11" letter-spacing="1.8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">CURRENT.STACK</text>
-<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">
-<text x="76" y="406" fill="#F8FAFC"><tspan fill="#34D399">01</tspan> Python · Flask · Django</text>
-<text x="76" y="431" fill="#F8FAFC"><tspan fill="#34D399">02</tspan> Java · C++ · JavaScript</text>
-<text x="76" y="456" fill="#F8FAFC"><tspan fill="#34D399">03</tspan> React · HTML · CSS · Bootstrap</text>
-<text x="76" y="481" fill="#F8FAFC"><tspan fill="#34D399">04</tspan> MySQL · PostgreSQL · SQLite</text>
+<text x="76" y="369" fill="#22D3EE" font-size="10" letter-spacing="2" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">CURRENT.STACK</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11.5">
+<text x="76" y="396" fill="#F8FAFC"><tspan fill="#34D399">01</tspan> Python · Flask · Django</text>
+<text x="76" y="420" fill="#F8FAFC"><tspan fill="#34D399">02</tspan> Java · C++ · JavaScript</text>
+<text x="76" y="444" fill="#F8FAFC"><tspan fill="#34D399">03</tspan> React · HTML · CSS · Bootstrap</text>
+<text x="76" y="468" fill="#F8FAFC"><tspan fill="#34D399">04</tspan> MySQL · PostgreSQL · SQLite</text>
 </g>
 
-<text x="76" y="519" fill="#8B5CF6" font-size="11" letter-spacing="1.8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">WORKFLOW</text>
-<text x="76" y="549" fill="#F8FAFC" font-size="13" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Learn → Build → Test → Improve → Deploy</text>
-<rect x="76" y="577" width="414" height="4" rx="2" fill="#263449"/>
-<rect x="76" y="594" width="178" height="4" rx="2" fill="url(#accent)">
-</rect>
-
+<text x="76" y="507" fill="#8B5CF6" font-size="10" letter-spacing="2" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">WORKFLOW</text>
+<text x="76" y="531" fill="#CBD5E1" font-size="12" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Learn → Build → Test → Improve → Deploy</text>
+<rect x="76" y="555" width="374" height="5" rx="2.5" fill="#263449"/>
+<rect x="76" y="555" width="180" height="5" rx="2.5" fill="url(#accent)"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="9">
+<text x="76" y="581" fill="#64748B">BUILD</text><text x="420" y="581" text-anchor="end" fill="#64748B">DEPLOY</text>
 </g>
+<rect x="76" y="601" width="374" height="25" rx="8" fill="#070D1A" stroke="#263449"/>
+<text x="90" y="618" fill="#64748B" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">github.com/RajenderMohanVerma</text>
+<circle cx="431" cy="613" r="4" fill="#34D399"/>
 
-<!-- right: clean identity -->
-<text x="550" y="112" fill="#22D3EE" font-size="12" letter-spacing="2.6" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">SYSTEM.INFO</text>
-<text x="550" y="164" fill="#F8FAFC" font-size="40" font-weight="750" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Rajender Mohan Verma</text>
-<text x="550" y="200" fill="#22D3EE" font-size="18" font-weight="650" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Full-Stack Developer · Python Developer · MCA</text>
+<!-- right identity panel -->
+<text x="510" y="137" fill="#22D3EE" font-size="11" letter-spacing="2.4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">02 / SYSTEM.INFO</text>
+<text x="510" y="178" fill="#F8FAFC" font-size="38" font-weight="800" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Rajender Mohan Verma</text>
+<text x="510" y="208" fill="#22D3EE" font-size="16" font-weight="700" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Full-Stack Developer · Python Developer · MCA</text>
+<rect x="510" y="226" width="638" height="4" rx="2" fill="#263449"/>
+<rect x="510" y="226" width="220" height="4" rx="2" fill="url(#accent)"/>
 
-<rect x="550" y="225" width="578" height="3" rx="2" fill="#263449"/>
-<rect x="550" y="225" width="210" height="3" rx="2" fill="url(#accent)">
-</rect>
+<!-- info cards -->
+<rect x="510" y="254" width="308" height="104" rx="16" fill="#0F172A" stroke="#263449"/>
+<text x="532" y="281" fill="#8B5CF6" font-size="10" letter-spacing="1.8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">EDUCATION</text>
+<text x="532" y="307" fill="#F8FAFC" font-size="14" font-weight="750" font-family="ui-sans-serif,system-ui,Arial,sans-serif">MCA — JIMS, Rohini</text>
+<text x="532" y="331" fill="#94A3B8" font-size="11.5" font-family="ui-sans-serif,system-ui,Arial,sans-serif">BCA · Don Bosco Institute of Technology</text>
+<rect x="532" y="341" width="92" height="3" rx="1.5" fill="#8B5CF6"/>
 
-<!-- cards -->
-<rect x="550" y="258" width="278" height="116" rx="16" fill="#0F172A" stroke="#263449"/>
-<text x="574" y="287" fill="#8B5CF6" font-size="11" letter-spacing="1.8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">EDUCATION</text>
-<text x="574" y="318" fill="#F8FAFC" font-size="15" font-weight="700" font-family="ui-sans-serif,system-ui,Arial,sans-serif">MCA — JIMS, Rohini</text>
-<text x="574" y="345" fill="#94A3B8" font-size="12" font-family="ui-sans-serif,system-ui,Arial,sans-serif">BCA — Don Bosco Institute</text>
-<text x="574" y="364" fill="#94A3B8" font-size="12" font-family="ui-sans-serif,system-ui,Arial,sans-serif">of Technology, Delhi</text>
+<rect x="836" y="254" width="312" height="104" rx="16" fill="#0F172A" stroke="#263449"/>
+<text x="858" y="281" fill="#22D3EE" font-size="10" letter-spacing="1.8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">FOCUS</text>
+<text x="858" y="307" fill="#F8FAFC" font-size="14" font-weight="750" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Web · Backend · DSA</text>
+<text x="858" y="331" fill="#94A3B8" font-size="11.5" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Projects, APIs and application development</text>
+<rect x="858" y="341" width="92" height="3" rx="1.5" fill="#22D3EE"/>
 
-<rect x="850" y="258" width="278" height="116" rx="16" fill="#0F172A" stroke="#263449"/>
-<text x="874" y="287" fill="#22D3EE" font-size="11" letter-spacing="1.8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">FOCUS</text>
-<text x="874" y="318" fill="#F8FAFC" font-size="15" font-weight="700" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Web · Backend · DSA</text>
-<text x="874" y="345" fill="#94A3B8" font-size="12" font-family="ui-sans-serif,system-ui,Arial,sans-serif">Practical projects</text>
-<text x="874" y="364" fill="#94A3B8" font-size="12" font-family="ui-sans-serif,system-ui,Arial,sans-serif">and application development</text>
+<text x="510" y="397" fill="#22D3EE" font-size="11" letter-spacing="2.4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">03 / SELECTED.PROJECTS</text>
 
-<text x="550" y="415" fill="#22D3EE" font-size="12" letter-spacing="2.6" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">SELECTED.PROJECTS</text>
 <g font-family="ui-sans-serif,system-ui,Arial,sans-serif">
-<rect x="550" y="438" width="578" height="43" rx="11" fill="#0F172A" stroke="#263449"/>
-<text x="570" y="465" fill="#F8FAFC" font-size="13" font-weight="650">01  Alumni Hub</text><text x="1108" y="465" text-anchor="end" fill="#22D3EE" font-size="11">FLASK</text>
-<rect x="550" y="490" width="578" height="43" rx="11" fill="#0F172A" stroke="#263449"/>
-<text x="570" y="517" fill="#F8FAFC" font-size="13" font-weight="650">02  SmartPark</text><text x="1108" y="517" text-anchor="end" fill="#8B5CF6" font-size="11">FULL-STACK</text>
-<rect x="550" y="542" width="578" height="43" rx="11" fill="#0F172A" stroke="#263449"/>
-<text x="570" y="569" fill="#F8FAFC" font-size="13" font-weight="650">03  Kabadivala</text><text x="1108" y="569" text-anchor="end" fill="#34D399" font-size="11">REACT</text>
+<rect x="510" y="417" width="638" height="48" rx="13" fill="#0F172A" stroke="#263449"/>
+<circle cx="534" cy="441" r="5" fill="#22D3EE"/><text x="552" y="446" fill="#F8FAFC" font-size="13" font-weight="700">Alumni Hub</text><text x="720" y="446" fill="#64748B" font-size="11">Academic community platform</text><text x="1124" y="446" text-anchor="end" fill="#22D3EE" font-size="10">FLASK</text>
+<rect x="510" y="475" width="638" height="48" rx="13" fill="#0F172A" stroke="#263449"/>
+<circle cx="534" cy="499" r="5" fill="#8B5CF6"/><text x="552" y="504" fill="#F8FAFC" font-size="13" font-weight="700">SmartPark</text><text x="720" y="504" fill="#64748B" font-size="11">Smart parking management</text><text x="1124" y="504" text-anchor="end" fill="#A78BFA" font-size="10">FULL-STACK</text>
+<rect x="510" y="533" width="638" height="48" rx="13" fill="#0F172A" stroke="#263449"/>
+<circle cx="534" cy="557" r="5" fill="#34D399"/><text x="552" y="562" fill="#F8FAFC" font-size="13" font-weight="700">Kabadivala</text><text x="720" y="562" fill="#64748B" font-size="11">E-waste collection platform</text><text x="1124" y="562" text-anchor="end" fill="#34D399" font-size="10">REACT</text>
 </g>
-<rect x="550" y="604" width="578" height="34" rx="10" fill="#020617" stroke="#263449"/>
-<text x="570" y="626" fill="#94A3B8" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">github.com/RajenderMohanVerma</text>
-<circle cx="1100" cy="621" r="5" fill="#34D399"></circle>
+
+<rect x="510" y="603" width="638" height="35" rx="10" fill="#070D1A" stroke="#263449"/>
+<text x="530" y="625" fill="#64748B" font-size="10.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">STATUS:// learning · building · shipping</text>
+<rect x="1048" y="615" width="70" height="4" rx="2" fill="url(#accent2)"/>
 </svg>
