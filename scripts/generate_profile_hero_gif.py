@@ -39,8 +39,12 @@ def make_gradient(width: int, height: int, colors: list[tuple[int, int, int]]) -
 
 
 def shifted_gradient(base_gradient: Image.Image, width: int, shift: int) -> Image.Image:
-    """Return a fixed-width gradient whose colors move without changing its bounds."""
-    canvas = Image.new("RGBA", (base_gradient.width * 2, base_gradient.height), (0, 0, 0, 0))
+    """Move the gradient inside a fixed-size line without moving the line itself."""
+    canvas = Image.new(
+        "RGBA",
+        (base_gradient.width * 2, base_gradient.height),
+        (0, 0, 0, 0),
+    )
     canvas.alpha_composite(base_gradient, (0, 0))
     canvas.alpha_composite(base_gradient, (base_gradient.width, 0))
 
@@ -62,10 +66,11 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
         line_color = (38, 52, 73, 255)
         gradient_colors = [(139, 92, 246), (34, 211, 238), (52, 211, 153)]
 
-    font = ImageFont.truetype(FONT_PATH, 34)
+    # Slightly smaller than the source SVG so the complete name fits the card.
+    font = ImageFont.truetype(FONT_PATH, 30)
 
-    # The container/card is always taken directly from the SVG.
-    # Animation is restricted to these small regions only.
+    # Animation is restricted to these regions. Everything else is copied
+    # pixel-for-pixel from the source SVG, including the outer container.
     name_box = (76, 150, 486, 198)
     top_line = (550, 224, 1128, 230)
     bottom_line = (76, 592, 254, 600)
@@ -86,15 +91,15 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
         frame = base.copy()
         phase = index / FRAMES
 
-        # ---- Moving name -------------------------------------------------
+        # Moving name, clipped to its existing card area.
         offset = int(round(travel * index / FRAMES))
         name_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
         name_draw = ImageDraw.Draw(name_layer)
 
         name_draw.rounded_rectangle(name_box, radius=8, fill=card_color)
-        name_draw.text((76 - offset, 150), NAME, font=font, fill=name_color)
+        name_draw.text((76 - offset, 154), NAME, font=font, fill=name_color)
         name_draw.text(
-            (76 - offset + travel, 150),
+            (76 - offset + travel, 154),
             NAME,
             font=font,
             fill=name_color,
@@ -106,6 +111,7 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
             radius=8,
             fill=255,
         )
+
         frame.alpha_composite(
             Image.composite(
                 name_layer,
@@ -114,11 +120,10 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
             )
         )
 
-        # ---- Moving colored accent lines --------------------------------
+        # Moving colors inside the existing accent lines.
         line_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
         line_draw = ImageDraw.Draw(line_layer)
 
-        # First restore the original thin line background.
         line_draw.rectangle(top_line, fill=line_color)
         line_draw.rectangle(bottom_line, fill=line_color)
 
@@ -136,14 +141,8 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
 
         line_mask = Image.new("L", frame.size, 0)
         line_mask_draw = ImageDraw.Draw(line_mask)
-        line_mask_draw.rectangle(
-            (top_line[0], top_line[1], top_line[2], top_line[3]),
-            fill=255,
-        )
-        line_mask_draw.rectangle(
-            (bottom_line[0], bottom_line[1], bottom_line[2], bottom_line[3]),
-            fill=255,
-        )
+        line_mask_draw.rectangle(top_line, fill=255)
+        line_mask_draw.rectangle(bottom_line, fill=255)
 
         frame.alpha_composite(
             Image.composite(
@@ -180,4 +179,4 @@ make_gif(
     light=True,
 )
 
-print("Generated hero GIFs: fixed container + moving name + moving accent gradients.")
+print("Generated hero GIFs: preserved container + smooth name + moving accent gradients.")
