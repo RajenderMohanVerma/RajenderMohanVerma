@@ -88,4 +88,5 @@
 <rect x="510" y="603" width="638" height="35" rx="10" fill="#070D1A" stroke="#263449"/>
 <text x="530" y="625" fill="#64748B" font-size="10.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">STATUS:// learning · building · shipping</text>
 <rect x="1048" y="615" width="70" height="4" rx="2" fill="url(#accent2)"/>
+<!-- animated hero build: 2026-09-27 -->
 </svg>
