@@ -1,14 +1,13 @@
 import io
+import math
 from pathlib import Path
 
 import cairosvg
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[1]
 FRAMES = 72
 DURATION_MS = 90
-NAME = "Rajender Mohan Verma"
-FONT_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 
 def render_base(svg_path: Path) -> Image.Image:
@@ -39,7 +38,7 @@ def make_gradient(width: int, height: int, colors: list[tuple[int, int, int]]) -
 
 
 def shifted_gradient(base_gradient: Image.Image, width: int, shift: int) -> Image.Image:
-    """Move the gradient inside a fixed-size line without moving the line itself."""
+    """Move gradient colors inside a fixed-size region."""
     canvas = Image.new(
         "RGBA",
         (base_gradient.width * 2, base_gradient.height),
@@ -56,93 +55,60 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
     base = render_base(svg_path)
 
     if light:
-        name_color = (15, 23, 42, 255)
-        card_color = (241, 245, 249, 255)
         line_color = (203, 213, 225, 255)
-        gradient_colors = [(109, 40, 217), (8, 145, 178), (5, 150, 105)]
+        accent_colors = [(109, 40, 217), (8, 145, 178), (5, 150, 105)]
+        status_color = (5, 150, 105)
+        avatar_color = (8, 145, 178)
     else:
-        name_color = (248, 250, 252, 255)
-        card_color = (15, 23, 42, 255)
         line_color = (38, 52, 73, 255)
-        gradient_colors = [(139, 92, 246), (34, 211, 238), (52, 211, 153)]
+        accent_colors = [(139, 92, 246), (34, 211, 238), (52, 211, 153)]
+        status_color = (52, 211, 153)
+        avatar_color = (34, 211, 238)
 
-    # Slightly smaller than the source SVG so the complete name fits the card.
-    font = ImageFont.truetype(FONT_PATH, 30)
+    top_line = (510, 226, 1148, 230)
+    top_accent = (510, 226, 730, 230)
+    footer_accent = (1048, 615, 1118, 619)
+    online_dot = (1110, 50)
+    avatar_center = (103, 188)
 
-    # Animation is restricted to these regions. Everything else is copied
-    # pixel-for-pixel from the source SVG, including the outer container.
-    name_box = (76, 150, 486, 198)
-    top_line = (550, 224, 1128, 230)
-    bottom_line = (76, 592, 254, 600)
+    top_width = top_accent[2] - top_accent[0]
+    footer_width = footer_accent[2] - footer_accent[0]
 
-    bbox = font.getbbox(NAME)
-    text_width = bbox[2] - bbox[0]
-    travel = text_width + 52
-
-    top_width = top_line[2] - top_line[0]
-    bottom_width = bottom_line[2] - bottom_line[0]
-
-    top_gradient = make_gradient(420, 4, gradient_colors)
-    bottom_gradient = make_gradient(356, 4, gradient_colors)
+    top_gradient = make_gradient(520, 4, accent_colors)
+    footer_gradient = make_gradient(180, 4, accent_colors)
 
     frames = []
 
     for index in range(FRAMES):
-        frame = base.copy()
         phase = index / FRAMES
+        frame = base.copy()
 
-        # Moving name, clipped to its existing card area.
-        offset = int(round(travel * index / FRAMES))
-        name_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
-        name_draw = ImageDraw.Draw(name_layer)
-
-        name_draw.rounded_rectangle(name_box, radius=8, fill=card_color)
-        name_draw.text((76 - offset, 154), NAME, font=font, fill=name_color)
-        name_draw.text(
-            (76 - offset + travel, 154),
-            NAME,
-            font=font,
-            fill=name_color,
-        )
-
-        name_mask = Image.new("L", frame.size, 0)
-        ImageDraw.Draw(name_mask).rounded_rectangle(
-            name_box,
-            radius=8,
-            fill=255,
-        )
-
-        frame.alpha_composite(
-            Image.composite(
-                name_layer,
-                Image.new("RGBA", frame.size, (0, 0, 0, 0)),
-                name_mask,
-            )
-        )
-
-        # Moving colors inside the existing accent lines.
+        # 1) Smooth moving accent under the main identity.
         line_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
-        line_draw = ImageDraw.Draw(line_layer)
+        draw = ImageDraw.Draw(line_layer)
+        draw.rounded_rectangle(top_line, radius=2, fill=line_color)
 
-        line_draw.rectangle(top_line, fill=line_color)
-        line_draw.rectangle(bottom_line, fill=line_color)
+        top_visible = shifted_gradient(
+            top_gradient,
+            top_width,
+            int(phase * top_gradient.width),
+        )
+        line_layer.alpha_composite(top_visible, (top_accent[0], top_accent[1]))
 
-        top_shift = int(phase * top_gradient.width)
-        bottom_shift = int(phase * bottom_gradient.width)
-
-        top_visible = shifted_gradient(top_gradient, top_width, top_shift)
-        bottom_visible = shifted_gradient(bottom_gradient, bottom_width, bottom_shift)
-
-        line_layer.alpha_composite(top_visible, (top_line[0], top_line[1] + 1))
+        footer_visible = shifted_gradient(
+            footer_gradient,
+            footer_width,
+            int(phase * footer_gradient.width),
+        )
         line_layer.alpha_composite(
-            bottom_visible,
-            (bottom_line[0], bottom_line[1] + 2),
+            footer_visible,
+            (footer_accent[0], footer_accent[1]),
         )
 
         line_mask = Image.new("L", frame.size, 0)
-        line_mask_draw = ImageDraw.Draw(line_mask)
-        line_mask_draw.rectangle(top_line, fill=255)
-        line_mask_draw.rectangle(bottom_line, fill=255)
+        mask_draw = ImageDraw.Draw(line_mask)
+        mask_draw.rounded_rectangle(top_line, radius=2, fill=255)
+        mask_draw.rounded_rectangle(footer_accent, radius=2, fill=255)
 
         frame.alpha_composite(
             Image.composite(
@@ -151,6 +117,51 @@ def make_gif(svg_path: Path, output_path: Path, light: bool) -> None:
                 line_mask,
             )
         )
+
+        # 2) Gentle ONLINE pulse, kept inside the existing terminal bar.
+        pulse = 0.55 + 0.45 * (0.5 + 0.5 * math.sin(phase * math.tau))
+        status_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
+        status_draw = ImageDraw.Draw(status_layer)
+
+        glow_radius = 7 + int(3 * pulse)
+        glow_alpha = int(25 + 45 * pulse)
+        status_draw.ellipse(
+            (
+                online_dot[0] - glow_radius,
+                online_dot[1] - glow_radius,
+                online_dot[0] + glow_radius,
+                online_dot[1] + glow_radius,
+            ),
+            fill=(*status_color, glow_alpha),
+        )
+        status_draw.ellipse(
+            (
+                online_dot[0] - 5,
+                online_dot[1] - 5,
+                online_dot[0] + 5,
+                online_dot[1] + 5,
+            ),
+            fill=(*status_color, 255),
+        )
+        frame.alpha_composite(status_layer)
+
+        # 3) Soft avatar ring pulse. This adds motion without moving the layout.
+        avatar_layer = Image.new("RGBA", frame.size, (0, 0, 0, 0))
+        avatar_draw = ImageDraw.Draw(avatar_layer)
+        ring_alpha = int(55 + 80 * pulse)
+        ring_width = 2 + int(pulse)
+        radius = 19 + int(2 * pulse)
+        avatar_draw.ellipse(
+            (
+                avatar_center[0] - radius,
+                avatar_center[1] - radius,
+                avatar_center[0] + radius,
+                avatar_center[1] + radius,
+            ),
+            outline=(*avatar_color, ring_alpha),
+            width=ring_width,
+        )
+        frame.alpha_composite(avatar_layer)
 
         frames.append(
             frame.convert("P", palette=Image.Palette.ADAPTIVE, colors=128)
@@ -179,4 +190,4 @@ make_gif(
     light=True,
 )
 
-print("Generated hero GIFs: preserved container + smooth name + moving accent gradients.")
+print("Generated polished hero GIFs with fixed layout and subtle micro-animations.")
