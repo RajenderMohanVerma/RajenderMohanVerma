@@ -2,13 +2,17 @@ name: GitHub Profile 3D Contribution
 
 on:
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "15 18 * * *"
   workflow_dispatch:
   push:
     branches: ["main"]
 
 permissions:
   contents: write
+
+concurrency:
+  group: profile-3d-contrib
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -31,5 +35,6 @@ jobs:
             echo "No 3D contribution changes."
           else
             git commit -m "chore: update 3D contribution profile"
+            git pull --rebase origin main
             git push
           fi
