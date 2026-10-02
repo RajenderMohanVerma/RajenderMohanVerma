@@ -1,10 +1,10 @@
-<!-- Profile hero: clean, professional, and GitHub-compatible -->
+<!-- Custom profile header hosted in this repository for reliable rendering -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,55:0F766E,100:06B6D4&height=220&section=header&text=Rajender%20Mohan%20Verma&fontSize=42&fontColor=F8FAFC&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Python%20%26%20Web%20Technologies&descSize=17&descAlignY=60&descColor=CCFBF1" alt="Rajender Mohan Verma — Full-Stack Developer" width="100%" />
+  <img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/profile-header.svg" alt="Professional developer profile banner" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=21&pause=1200&color=0F766E&center=true&vCenter=true&width=760&lines=Building+Practical+Web+Applications;Python+%7C+Flask+%7C+JavaScript;Full-Stack+Development+%26+Problem+Solving;MCA+Student+at+JIMS%2C+Rohini" alt="Developer focus animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1400&color=0F766E&center=true&vCenter=true&width=760&lines=Building+Practical+Web+Applications;Python+%7C+Flask+%7C+JavaScript;Full-Stack+Development+%26+Problem+Solving;MCA+Student+at+JIMS%2C+Rohini" alt="Developer focus animation" />
 </p>
 
 <p align="center">
