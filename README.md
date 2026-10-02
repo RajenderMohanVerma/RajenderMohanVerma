@@ -19,14 +19,24 @@
   <img src="https://komarev.com/ghpvc/?username=RajenderMohanVerma&label=Profile%20Visitors&color=5B3CC4&style=flat-square" alt="Profile visitors" />
 </p>
 
+<p align="center">
+  <a href="#about"><img src="https://img.shields.io/badge/About_Me-Profile-243B75?style=for-the-badge" alt="About Me" /></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-Tools-5B3CC4?style=for-the-badge" alt="Tech Stack" /></a>
+  <a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-Explore-0E7490?style=for-the-badge" alt="Featured Projects" /></a>
+  <a href="#achievements"><img src="https://img.shields.io/badge/Achievements-Growth-9D174D?style=for-the-badge" alt="Achievements" /></a>
+  <a href="#github-highlights"><img src="https://img.shields.io/badge/GitHub-Activity-334155?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Activity" /></a>
+  <a href="#connect"><img src="https://img.shields.io/badge/Connect-Let's_Talk-0F766E?style=for-the-badge" alt="Connect" /></a>
+</p>
+
 ---
 
+<a id="about"></a>
 <p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/about-header.svg" alt="About Me and Quick Highlights" width="100%" /></p>
 
 I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy building practical software solutions, responsive web applications and user-focused digital experiences.
 
 - 🎓 **MCA — Currently Pursuing** at **JIMS, Rohini**
-- 🎓 **BCA — Completed** from **Don Bosco Institute of Technology (DBIT), Delhi**
+- 🎓 **BCA — Completed** from **Bosco Institute of Technology (DBIT), Delhi**
 - 💻 Focused on **Full-Stack Development, Python, Java and Web Technologies**
 - 🧠 Interested in **DSA, problem solving and application development**
 - 🔧 Comfortable working with frontend, backend, databases, APIs and deployment
@@ -46,6 +56,7 @@ I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy b
 
 ---
 
+<a id="tech-stack"></a>
 <p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/stack-header.svg" alt="Tech Stack and Tools" width="100%" /></p>
 
 ### 💻 Programming Languages
@@ -114,6 +125,7 @@ I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy b
 
 ---
 
+<a id="featured-projects"></a>
 <p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/projects-header.svg" alt="Featured Projects" width="100%" /></p>
 
 ### 🎓 1. Alumni Hub — Alumni Connection Network
@@ -206,6 +218,7 @@ An interactive Django quiz application that helps users practice Python with tim
 
 ---
 
+<a id="achievements"></a>
 <p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/journey-header.svg" alt="Achievements, Focus and Professional Interests" width="100%" /></p>
 
 ### 🏆 Achievements & Certifications
@@ -222,6 +235,7 @@ An interactive Django quiz application that helps users practice Python with tim
 - 🧪 **OneRoadmap Frontend Test — 75% Score**
 - 🌐 **SkillCup Community — Google Student Ambassador Session**
 
+<a id="github-highlights"></a>
 ### 📊 GitHub Highlights
 
 <p align="center">
@@ -253,6 +267,7 @@ An interactive Django quiz application that helps users practice Python with tim
   </picture>
 </p>
 
+<a id="current-focus"></a>
 ### 🎯 Current Focus
 
 - 🔥 Improving **Full-Stack Development** skills
@@ -274,6 +289,7 @@ An interactive Django quiz application that helps users practice Python with tim
 
 ---
 
+<a id="connect"></a>
 ## 🤝 Connect With Me
 
 <p align="center">
@@ -298,4 +314,4 @@ I believe the best way to learn technology is by building real projects, solving
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0891B2&height=120&section=footer" alt="Footer" />
 </p>
-\n
+
