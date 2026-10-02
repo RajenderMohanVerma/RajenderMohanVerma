@@ -1,17 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250">
-<rect width="760" height="250" rx="14" fill="#161b22"/>
-<text x="34" y="42" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="22" font-weight="700">GitHub Highlights</text>
-<text x="34" y="68" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">RajenderMohanVerma • Profile activity</text>
-<line x1="253" y1="92" x2="253" y2="215" stroke="#30363d"/>
-<line x1="506" y1="92" x2="506" y2="215" stroke="#30363d"/>
-<text x="126" y="132" text-anchor="middle" fill="#58a6ff" font-family="Arial, sans-serif" font-size="38" font-weight="700">230</text>
-<text x="126" y="158" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">Total Contributions</text>
-<text x="126" y="184" text-anchor="middle" fill="#6e7681" font-family="Arial, sans-serif" font-size="11">Current profile snapshot</text>
-<text x="379" y="132" text-anchor="middle" fill="#bc8cff" font-family="Arial, sans-serif" font-size="38" font-weight="700">5</text>
-<text x="379" y="158" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">Current Streak</text>
-<text x="379" y="184" text-anchor="middle" fill="#6e7681" font-family="Arial, sans-serif" font-size="11">Sep 10 – Sep 14</text>
-<text x="633" y="132" text-anchor="middle" fill="#79c0ff" font-family="Arial, sans-serif" font-size="38" font-weight="700">8</text>
-<text x="633" y="158" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">Longest Streak</text>
-<text x="633" y="184" text-anchor="middle" fill="#6e7681" font-family="Arial, sans-serif" font-size="11">Feb 6 – Feb 13</text>
-<text x="34" y="228" fill="#6e7681" font-family="Arial, sans-serif" font-size="10">Profile snapshot • Update this SVG when you want to refresh displayed numbers.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Highlights</title>
+  <desc id="desc">A profile overview focused on practical projects, consistent coding practice and continuous learning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10172A"/>
+      <stop offset=".55" stop-color="#243B75"/>
+      <stop offset="1" stop-color="#3B216D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="250" rx="18" fill="url(#bg)"/>
+  <circle cx="720" cy="22" r="100" fill="#67E8F9" opacity=".08"/>
+  <circle cx="28" cy="238" r="100" fill="#C4B5FD" opacity=".07"/>
+  <text x="30" y="38" fill="#A5F3FC" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.5">DEVELOPER JOURNEY</text>
+  <text x="30" y="69" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="25" font-weight="700">GitHub Highlights</text>
+  <text x="30" y="91" fill="#DDE7FF" font-family="Arial, sans-serif" font-size="12">Build useful things. Practice consistently. Keep improving.</text>
+  <g>
+    <rect x="26" y="112" width="224" height="94" rx="12" fill="#FFFFFF" fill-opacity=".07" stroke="#67E8F9" stroke-opacity=".45"/>
+    <rect x="268" y="112" width="224" height="94" rx="12" fill="#FFFFFF" fill-opacity=".07" stroke="#A5B4FC" stroke-opacity=".45"/>
+    <rect x="510" y="112" width="224" height="94" rx="12" fill="#FFFFFF" fill-opacity=".07" stroke="#C4B5FD" stroke-opacity=".45"/>
+    <circle cx="48" cy="136" r="5" fill="#67E8F9"/>
+    <circle cx="290" cy="136" r="5" fill="#A5B4FC"/>
+    <circle cx="532" cy="136" r="5" fill="#C4B5FD"/>
+    <text x="40" y="160" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="15" font-weight="700">PROJECTS</text>
+    <text x="40" y="181" fill="#DDE7FF" font-family="Arial, sans-serif" font-size="11">Practical, user-focused</text>
+    <text x="40" y="195" fill="#DDE7FF" font-family="Arial, sans-serif" font-size="11">software applications</text>
+    <text x="282" y="160" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="15" font-weight="700">PRACTICE</text>
+    <text x="282" y="181" fill="#DDE7FF" font-family="Arial, sans-serif" font-size="11">DSA, coding challenges</text>
+    <text x="282" y="195" fill="#DDE7FF" font-family="Arial, sans-serif" font-size="11">and problem solving</text>
+    <text x="524" y="160" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="15" font-weight="700">PROGRESS</text>
+    <text x="524" y="181" fill="#DDE7FF" font-family="Arial, sans-serif" font-size="11">Learning new tools</text>
+    <text x="524" y="195" fill="#DDE7FF" font-family="Arial, sans-serif" font-size="11">and improving quality</text>
+  </g>
+  <rect x="30" y="222" width="700" height="3" rx="1.5" fill="url(#accent)" opacity=".85"/>
 </svg>
