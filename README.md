@@ -1,38 +1,29 @@
-<!-- profile-hero: stable container + smooth marquee -->
-<!-- ============================================================
-     👋 RAJENDER MOHAN VERMA — GITHUB PROFILE README
-     Professional, interactive and recruiter-friendly profile.
-     Marquee hero is generated as a GitHub-compatible animated GIF.
-============================================================= -->
-
+<!-- Profile hero: clean, professional, and GitHub-compatible -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-marquee-dark.gif">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-marquee-light.gif">
-    <img src="./assets/profile-hero-marquee-dark.gif" alt="Rajender Mohan Verma premium developer profile" width="100%">
-  </picture>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,55:0F766E,100:06B6D4&height=220&section=header&text=Rajender%20Mohan%20Verma&fontSize=42&fontColor=F8FAFC&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Python%20%26%20Web%20Technologies&descSize=17&descAlignY=60&descColor=CCFBF1" alt="Rajender Mohan Verma — Full-Stack Developer" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=23&pause=1000&color=67E8F9&center=true&vCenter=true&width=760&lines=Hi+There!+I'm+Rajender+Mohan+Verma;Full-Stack+Developer+%7C+Python+Developer;Web+Developer+%7C+Java+Developer;MCA+Student+at+JIMS%2C+Rohini;Building+Practical+%26+Interactive+Projects" alt="Typing animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=21&pause=1200&color=0F766E&center=true&vCenter=true&width=760&lines=Building+Practical+Web+Applications;Python+%7C+Flask+%7C+JavaScript;Full-Stack+Development+%26+Problem+Solving;MCA+Student+at+JIMS%2C+Rohini" alt="Developer focus animation" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCA-Currently%20Pursuing-7C3AED?style=for-the-badge&logo=academia&logoColor=white" alt="MCA Currently Pursuing" />
-  <img src="https://img.shields.io/badge/JIMS-Rohini-172554?style=for-the-badge" alt="JIMS Rohini" />
-  <img src="https://img.shields.io/badge/BCA-Completed-0891B2?style=for-the-badge&logo=bookstack&logoColor=white" alt="BCA Completed" />
-  <img src="https://img.shields.io/badge/Delhi%2C%20India-0F766E?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Delhi India" />
+  <a href="https://rajender-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Explore-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/RajenderMohanVerma?tab=repositories"><img src="https://img.shields.io/badge/Projects-View%20Repositories-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
+  <a href="https://www.linkedin.com/in/rajender-mohan-verma-10418432a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RajenderMohanVerma&label=Profile%20Visitors&color=0891B2&style=for-the-badge" alt="Profile visitors" />
+  <img src="https://img.shields.io/badge/MCA-Pursuing-0F766E?style=flat-square&logo=academia&logoColor=white" alt="MCA pursuing" />
+  <img src="https://img.shields.io/badge/BCA-Completed-0891B2?style=flat-square&logo=bookstack&logoColor=white" alt="BCA completed" />
+  <img src="https://komarev.com/ghpvc/?username=RajenderMohanVerma&label=Profile%20Visitors&color=0F766E&style=flat-square" alt="Profile visitors" />
 </p>
 
 ---
 
 <p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/about-header.svg" alt="About Me and Quick Highlights" width="100%" /></p>
 
-Hi, I'm **Rajender Mohan Verma**, a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy building practical software solutions, responsive web applications and user-focused digital experiences.
+I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy building practical software solutions, responsive web applications and user-focused digital experiences.
 
 - 🎓 **MCA — Currently Pursuing** at **JIMS, Rohini**
 - 🎓 **BCA — Completed** from **Don Bosco Institute of Technology (DBIT), Delhi**
