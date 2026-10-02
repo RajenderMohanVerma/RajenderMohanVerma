@@ -4,19 +4,19 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1400&color=0F766E&center=true&vCenter=true&width=760&lines=Building+Practical+Web+Applications;Python+%7C+Flask+%7C+JavaScript;Full-Stack+Development+%26+Problem+Solving;MCA+Student+at+JIMS%2C+Rohini" alt="Developer focus animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1200&color=6D5AE6&center=true&vCenter=true&width=820&lines=Full-Stack+Developer+%7C+Python+Developer;Web+Developer+%7C+Java+Developer;Building+Practical+%26+Interactive+Projects;MCA+Student+at+JIMS%2C+Rohini" alt="Developer focus animation" />
 </p>
 
 <p align="center">
-  <a href="https://rajender-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Explore-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://github.com/RajenderMohanVerma?tab=repositories"><img src="https://img.shields.io/badge/Projects-View%20Repositories-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
+  <a href="https://rajender-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Explore-5B3CC4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/RajenderMohanVerma?tab=repositories"><img src="https://img.shields.io/badge/Projects-View%20Repositories-243B75?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
   <a href="https://www.linkedin.com/in/rajender-mohan-verma-10418432a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCA-Pursuing-0F766E?style=flat-square&logo=academia&logoColor=white" alt="MCA pursuing" />
+  <img src="https://img.shields.io/badge/MCA-Pursuing-5B3CC4?style=flat-square&logo=academia&logoColor=white" alt="MCA pursuing" />
   <img src="https://img.shields.io/badge/BCA-Completed-0891B2?style=flat-square&logo=bookstack&logoColor=white" alt="BCA completed" />
-  <img src="https://komarev.com/ghpvc/?username=RajenderMohanVerma&label=Profile%20Visitors&color=0F766E&style=flat-square" alt="Profile visitors" />
+  <img src="https://komarev.com/ghpvc/?username=RajenderMohanVerma&label=Profile%20Visitors&color=5B3CC4&style=flat-square" alt="Profile visitors" />
 </p>
 
 ---
