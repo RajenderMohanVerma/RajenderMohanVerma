@@ -235,46 +235,6 @@ An interactive **Django-based quiz application** designed to make Python practic
 
 ---
 
-### 📝 6. Validation Page
-
-A responsive registration form project focused on clean form design, client-side validation and helpful feedback when users enter invalid information.
-
-**Highlights:**
-- 📋 Responsive registration form
-- ✅ Client-side JavaScript validation
-- ⚠️ Clear validation messages and error handling
-- 🧹 Input checking for common form fields
-- 📱 Mobile-friendly layout
-- 🎨 Clean and simple user interface
-
-**Tech:** HTML, CSS, JavaScript
-
-🔗 **Live Demo:** https://reg-validation-page.netlify.app/
-
-🔗 **GitHub:** https://github.com/RajenderMohanVerma/Validation-page
-
----
-
-### 🎨 7. Neon Calculator
-
-A responsive neon-themed calculator built with vanilla web technologies, combining an interactive interface with real-time arithmetic operations.
-
-**Highlights:**
-- ➕ Basic arithmetic operations
-- ⚡ Real-time calculation interaction
-- 🎨 Neon-inspired modern UI
-- 🖱️ Interactive calculator controls
-- 📱 Responsive design for different screen sizes
-- 🧮 Lightweight browser-based implementation
-
-**Tech:** HTML, CSS, JavaScript
-
-🔗 **Live Demo:** https://intractive-math-calculator.netlify.app/
-
-🔗 **GitHub:** https://github.com/RajenderMohanVerma/neon-calculator
-
----
-
 <p align="center"><img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/journey-header.svg" alt="Achievements, Focus and Professional Interests" width="100%" /></p>
 
 ### 🏆 Achievements & Certifications
