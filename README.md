@@ -127,17 +127,13 @@ Hi, I'm **Rajender Mohan Verma**, a **BCA graduate** and currently pursuing **MC
 
 ### 🎓 1. Alumni Hub — Alumni Connection Network
 
-A professional **Flask-based Alumni Management System** connecting students, alumni and faculty through networking, career opportunities, real-time communication and intelligent recommendations.
+A Flask-based platform connecting students, alumni and faculty through networking, career opportunities and communication.
 
 **Highlights:**
-- 👥 Multi-role access for Students, Alumni, Faculty and Admin
-- 🔗 Connection requests with an Instagram-style networking experience
-- 💬 Public and private real-time messaging using WebSockets
-- 🧠 Hybrid recommendations using rule-based scoring and ML filtering
-- 💼 Career board and recruitment tracking for professional opportunities
-- 📧 OTP verification and email notification workflow
-- 🛡️ Role-based access control and security-focused design
-- 📊 Admin analytics with CSV reporting
+- 👥 Role-based access for Students, Alumni, Faculty and Admin
+- 💬 Real-time messaging, connection requests and career board
+- 🧠 Smart recommendations, OTP email verification and notifications
+- 📊 Admin analytics, CSV reporting and security-focused access control
 
 **Tech:** Python, Flask, Flask-Login, Flask-SocketIO, SQLite, scikit-learn, NumPy, Bootstrap, JavaScript
 
@@ -149,19 +145,13 @@ A professional **Flask-based Alumni Management System** connecting students, alu
 
 ### 🅿️ 2. SmartPark — Smart Parking Management System
 
-A full-stack parking management platform developed as an **MCA Minor Project**, covering parking search, reservations, QR-based verification, check-in/check-out and digital payment records.
+A full-stack parking platform for finding spaces, reserving slots and managing parking entry and exit.
 
 **Highlights:**
-- 🔐 User registration, login and account management
-- 🚗 Multiple vehicle garage for managing registered vehicles
-- 🅿️ Parking search, filtering and slot availability
-- 📅 Slot reservations with fee estimation and booking history
-- 📱 QR pass generation and verification for parking access
-- 🧾 PDF receipt generation for completed parking transactions
-- 🔔 Notifications and payment history tracking
-- 👨‍💼 Admin management for parking areas and slots
-- ✅ Check-in/check-out and payment ledger workflow
-- 📲 Responsive PWA with dark/light mode support
+- 🔐 User accounts and multiple registered vehicles
+- 🅿️ Parking search, slot availability, reservations and fee estimation
+- 📱 QR-based parking passes with check-in/check-out verification
+- 🧾 PDF receipts, payment history, notifications and admin slot management
 
 **Tech:** Python, Flask, SQLAlchemy, PostgreSQL/Neon, SQLite, Bootstrap, JavaScript, QR/PDF generation, Vercel
 
@@ -173,19 +163,13 @@ A full-stack parking management platform developed as an **MCA Minor Project**, 
 
 ### ♻️ 3. Kabadivala — Traceable Recycling Platform
 
-A role-based recycling platform connecting **customers, collectors, collection hubs, recyclers and administrators** in a traceable workflow from pickup booking to recycling completion.
+A role-based recycling platform connecting customers, collectors, hubs and recyclers from pickup booking to recycling completion.
 
 **Highlights:**
 - 👤 Dedicated workspaces for Customer, Collector, Hub Manager, Recycler and Admin
-- 📦 Pickup booking with item details, scheduling and image upload
-- 🤖 Gemini-assisted item identification for uploaded recyclable items
-- 🚚 Collector matching with pickup status and proof tracking
-- ⚖️ Actual weight capture and pickup verification workflow
-- ⭐ Eco points, reviews, complaints and notifications
-- 🏭 Hub inventory and recycling batch management
-- 🔗 QR-based handoffs for traceable material movement
-- ♻️ Recycler processing and recovered-material tracking
-- 📜 Recycling certificate generation and admin audit logs
+- 📦 Pickup scheduling, image uploads, AI-assisted item identification and collector tracking
+- ⚖️ Weight verification, eco points, reviews, complaints and notifications
+- 🔗 QR-based material handoffs, hub inventory, recycling batches and certificates
 
 **Tech:** React, Vite, React Router, Node.js, Express.js, PostgreSQL, Prisma, JWT, Zod, Multer, Gemini Vision API, PDF/QR generation, Vercel, Render
 
@@ -197,15 +181,13 @@ A role-based recycling platform connecting **customers, collectors, collection h
 
 ### 🤖 4. AI Resume Analyzer
 
-An AI-powered resume analysis application that helps users evaluate their resumes and receive structured, practical feedback for improvement.
+An AI-powered web application that analyzes uploaded resumes and provides structured feedback to help users improve them.
 
 **Highlights:**
 - 📄 Resume upload and analysis workflow
-- 🤖 AI-assisted resume evaluation
-- 📊 Structured feedback for different resume areas
-- 🎯 Actionable suggestions for improving resume quality
-- 🌐 Simple and accessible Streamlit web interface
-- ⚡ Designed for quick resume analysis and review
+- 🤖 AI-assisted evaluation of resume content
+- 📊 Structured feedback across resume sections
+- 🎯 Practical suggestions through a simple Streamlit interface
 
 **Tech:** Python, Streamlit, AI/ML-based resume analysis
 
@@ -217,15 +199,13 @@ An AI-powered resume analysis application that helps users evaluate their resume
 
 ### 🧠 5. Python Quiz App — Django
 
-An interactive **Django-based quiz application** designed to make Python practice engaging through timed questions, automatic scoring and result tracking.
+An interactive Django quiz application that helps users practice Python with timed questions and automatic results.
 
 **Highlights:**
 - 📝 Dynamic Python quiz questions
 - ⏱️ Timed quiz experience
-- 🧮 Automatic score calculation
-- 📊 Result display after quiz completion
-- 🎨 Responsive and user-friendly interface
-- 🐍 Built to support Python learning and practice
+- 🧮 Automatic scoring and result display
+- 🎨 Responsive interface for Python learning and practice
 
 **Tech:** Python, Django, HTML, CSS, JavaScript
 
