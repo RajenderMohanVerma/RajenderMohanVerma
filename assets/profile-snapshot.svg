@@ -27,9 +27,9 @@
   <text x="122" y="119" fill="#94A3B8" font-family="Arial,sans-serif" font-size="13">Full-Stack Developer • Python Developer • MCA Student</text>
 
   <rect x="692" y="24" width="184" height="128" rx="20" fill="#0B1627" stroke="#334155"/>
-  <text x="784" y="82" text-anchor="middle" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="34" font-weight="800">24</text>
+  <text x="784" y="82" text-anchor="middle" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="34" font-weight="800">23</text>
   <text x="784" y="108" text-anchor="middle" fill="#7890B4" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">REPOSITORIES</text>
-  <text x="784" y="129" text-anchor="middle" fill="#64748B" font-family="Arial,sans-serif" font-size="10">Public projects &amp; learning</text>
+  <text x="784" y="129" text-anchor="middle" fill="#64748B" font-family="Arial,sans-serif" font-size="10">Live GitHub count</text>
 
   <rect x="894" y="24" width="182" height="128" rx="20" fill="#0B1627" stroke="#334155"/>
   <text x="985" y="82" text-anchor="middle" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="28" font-weight="800">MCA</text>
