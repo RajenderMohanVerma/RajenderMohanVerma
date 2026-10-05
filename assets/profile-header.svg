@@ -1,46 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
-  <title id="title">Rajender Mohan Verma — Developer Profile</title>
-  <desc id="desc">A professional blue, indigo and violet developer banner with education, technology interests and code-inspired decoration.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#10172A"/>
-      <stop offset="52%" stop-color="#243B75"/>
-      <stop offset="100%" stop-color="#5B3CC4"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#67E8F9"/>
-      <stop offset="100%" stop-color="#C4B5FD"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#E0E7FF" stroke-opacity=".08" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="310" rx="26" fill="url(#bg)"/>
-  <rect width="1200" height="310" rx="26" fill="url(#grid)"/>
-  <circle cx="1050" cy="62" r="180" fill="#818CF8" opacity=".13"/>
-  <circle cx="1120" cy="280" r="150" fill="#22D3EE" opacity=".10"/>
-  <path d="M0 272 C260 225 430 320 680 270 S1000 235 1200 266" fill="none" stroke="#C4B5FD" stroke-opacity=".35" stroke-width="2"/>
-  <g fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".95">
-    <path d="M938 105l-29 29 29 29"/>
-    <path d="M1014 105l29 29-29 29"/>
-    <path d="M989 92l-27 84"/>
-  </g>
-  <g fill="#E0E7FF" opacity=".65">
-    <circle cx="1080" cy="90" r="4"/><circle cx="1110" cy="90" r="4"/><circle cx="1140" cy="90" r="4"/>
-    <circle cx="1080" cy="120" r="4"/><circle cx="1110" cy="120" r="4"/><circle cx="1140" cy="120" r="4"/>
-    <circle cx="1080" cy="150" r="4"/><circle cx="1110" cy="150" r="4"/><circle cx="1140" cy="150" r="4"/>
-  </g>
-  <text x="76" y="66" fill="#A5F3FC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="4">GITHUB DEVELOPER PROFILE</text>
-  <text x="72" y="123" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="43" font-weight="700">Rajender Mohan Verma</text>
-  <rect x="76" y="143" width="88" height="4" rx="2" fill="url(#accent)"/>
-  <text x="76" y="181" fill="#F5F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">Full-Stack Developer  ·  Python Developer  ·  Web Developer</text>
-  <text x="76" y="213" fill="#E0E7FF" font-family="Segoe UI, Arial, sans-serif" font-size="17">Java  ·  Flask  ·  JavaScript  ·  Databases  ·  Problem Solving</text>
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">
-    <rect x="76" y="238" width="215" height="34" rx="17" fill="#FFFFFF" fill-opacity=".12" stroke="#C4B5FD" stroke-opacity=".65"/>
-    <text x="183.5" y="260" text-anchor="middle" fill="#FFFFFF">MCA · JIMS, Rohini</text>
-    <rect x="305" y="238" width="165" height="34" rx="17" fill="#FFFFFF" fill-opacity=".12" stroke="#67E8F9" stroke-opacity=".65"/>
-    <text x="387.5" y="260" text-anchor="middle" fill="#FFFFFF">BCA Graduate</text>
-    <rect x="484" y="238" width="150" height="34" rx="17" fill="#FFFFFF" fill-opacity=".12" stroke="#C4B5FD" stroke-opacity=".65"/>
-    <text x="559" y="260" text-anchor="middle" fill="#FFFFFF">Delhi, India</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Developer profile hero</title>
+<desc id="desc">A dark blue and violet developer portfolio header for Rajender Mohan Verma.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080D1B"/><stop offset=".48" stop-color="#142A55"/><stop offset="1" stop-color="#32185A"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset=".55" stop-color="#6366F1"/><stop offset="1" stop-color="#E879F9"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#A5B4FC" stroke-opacity=".07"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+<circle cx="1030" cy="70" r="150" fill="#6366F1" opacity=".12" filter="url(#glow)"/>
+<circle cx="1100" cy="350" r="130" fill="#22D3EE" opacity=".08" filter="url(#glow)"/>
+<path d="M0 362C240 305 380 408 620 350S990 304 1200 355" fill="none" stroke="url(#line)" stroke-opacity=".28" stroke-width="2"/>
+<text x="64" y="62" fill="#67E8F9" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="4">01 / DEVELOPER PROFILE</text>
+<text x="62" y="128" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="48" font-weight="800">Rajender Mohan Verma</text>
+<text x="64" y="166" fill="#DDE7FF" font-family="Arial,sans-serif" font-size="20" font-weight="600">FULL-STACK • PYTHON • JAVA • WEB DEVELOPMENT</text>
+<text x="64" y="198" fill="#A5B4FC" font-family="Arial,sans-serif" font-size="15">Building practical software, solving problems and learning by shipping.</text>
+<rect x="64" y="224" width="540" height="3" rx="1.5" fill="url(#line)"/>
+<g font-family="Arial,sans-serif" font-size="14" font-weight="700">
+  <rect x="64" y="248" width="170" height="38" rx="19" fill="#FFFFFF" fill-opacity=".08" stroke="#67E8F9" stroke-opacity=".5"/>
+  <text x="149" y="272" text-anchor="middle" fill="#F8FAFC">MCA • JIMS, Rohini</text>
+  <rect x="246" y="248" width="154" height="38" rx="19" fill="#FFFFFF" fill-opacity=".08" stroke="#818CF8" stroke-opacity=".5"/>
+  <text x="323" y="272" text-anchor="middle" fill="#F8FAFC">BCA Graduate</text>
+  <rect x="412" y="248" width="138" height="38" rx="19" fill="#FFFFFF" fill-opacity=".08" stroke="#C084FC" stroke-opacity=".5"/>
+  <text x="481" y="272" text-anchor="middle" fill="#F8FAFC">Delhi, India</text>
+</g>
+<g transform="translate(770 58)">
+  <rect width="360" height="286" rx="18" fill="#07101F" fill-opacity=".82" stroke="#7DD3FC" stroke-opacity=".35"/>
+  <circle cx="24" cy="23" r="5" fill="#F87171"/><circle cx="42" cy="23" r="5" fill="#FBBF24"/><circle cx="60" cy="23" r="5" fill="#34D399"/>
+  <text x="24" y="58" fill="#64748B" font-family="monospace" font-size="12">developer_profile.py</text>
+  <text x="24" y="90" fill="#C084FC" font-family="monospace" font-size="14">class</text>
+  <text x="74" y="90" fill="#67E8F9" font-family="monospace" font-size="14">Developer</text>
+  <text x="24" y="118" fill="#CBD5E1" font-family="monospace" font-size="13">    focus = [</text>
+  <text x="40" y="143" fill="#A5F3FC" font-family="monospace" font-size="13">'Python', 'Java',</text>
+  <text x="40" y="166" fill="#A5F3FC" font-family="monospace" font-size="13">'Web', 'DSA'</text>
+  <text x="24" y="190" fill="#CBD5E1" font-family="monospace" font-size="13">    mindset =</text>
+  <text x="112" y="190" fill="#F0ABFC" font-family="monospace" font-size="13">'build &amp; improve'</text>
+  <text x="24" y="224" fill="#CBD5E1" font-family="monospace" font-size="13">    status =</text>
+  <text x="112" y="224" fill="#86EFAC" font-family="monospace" font-size="13">'learning → shipping'</text>
+  <text x="24" y="260" fill="#475569" font-family="monospace" font-size="12"># keep building</text>
+</g>
+<text x="64" y="330" fill="#64748B" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">LEARN • BUILD • TEST • IMPROVE • DEPLOY</text>
 </svg>
