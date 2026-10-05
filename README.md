@@ -20,6 +20,10 @@
 </p>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/RajenderMohanVerma/RajenderMohanVerma/main/assets/profile-snapshot.svg" alt="GitHub profile snapshot" width="100%" />
+</p>
+
+<p align="center">
   <a href="#about"><img src="https://img.shields.io/badge/About_Me-Profile-243B75?style=for-the-badge" alt="About Me" /></a>
   <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-Tools-5B3CC4?style=for-the-badge" alt="Tech Stack" /></a>
   <a href="#featured-projects"><img src="https://img.shields.io/badge/Projects-Explore-0E7490?style=for-the-badge" alt="Featured Projects" /></a>
