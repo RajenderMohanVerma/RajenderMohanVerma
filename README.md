@@ -136,11 +136,6 @@ I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy b
 
 A Flask-based platform connecting students, alumni and faculty through networking, career opportunities and communication.
 
-**Highlights:**
-- 👥 Role-based access for Students, Alumni, Faculty and Admin
-- 💬 Real-time messaging, connection requests and career board
-- 🧠 Smart recommendations, OTP email verification and notifications
-- 📊 Admin analytics, CSV reporting and security-focused access control
 
 **Tech:** Python, Flask, Flask-Login, Flask-SocketIO, SQLite, scikit-learn, NumPy, Bootstrap, JavaScript
 
@@ -154,11 +149,6 @@ A Flask-based platform connecting students, alumni and faculty through networkin
 
 A full-stack parking platform for finding spaces, reserving slots and managing parking entry and exit.
 
-**Highlights:**
-- 🔐 User accounts and multiple registered vehicles
-- 🅿️ Parking search, slot availability, reservations and fee estimation
-- 📱 QR-based parking passes with check-in/check-out verification
-- 🧾 PDF receipts, payment history, notifications and admin slot management
 
 **Tech:** Python, Flask, SQLAlchemy, PostgreSQL/Neon, SQLite, Bootstrap, JavaScript, QR/PDF generation, Vercel
 
@@ -172,11 +162,6 @@ A full-stack parking platform for finding spaces, reserving slots and managing p
 
 A role-based recycling platform connecting customers, collectors, hubs and recyclers from pickup booking to recycling completion.
 
-**Highlights:**
-- 👤 Dedicated workspaces for Customer, Collector, Hub Manager, Recycler and Admin
-- 📦 Pickup scheduling, image uploads, AI-assisted item identification and collector tracking
-- ⚖️ Weight verification, eco points, reviews, complaints and notifications
-- 🔗 QR-based material handoffs, hub inventory, recycling batches and certificates
 
 **Tech:** React, Vite, React Router, Node.js, Express.js, PostgreSQL, Prisma, JWT, Zod, Multer, Gemini Vision API, PDF/QR generation, Vercel, Render
 
@@ -190,11 +175,6 @@ A role-based recycling platform connecting customers, collectors, hubs and recyc
 
 An AI-powered web application that analyzes uploaded resumes and provides structured feedback to help users improve them.
 
-**Highlights:**
-- 📄 Resume upload and analysis workflow
-- 🤖 AI-assisted evaluation of resume content
-- 📊 Structured feedback across resume sections
-- 🎯 Practical suggestions through a simple Streamlit interface
 
 **Tech:** Python, Streamlit, AI/ML-based resume analysis
 
@@ -208,11 +188,6 @@ An AI-powered web application that analyzes uploaded resumes and provides struct
 
 An interactive Django quiz application that helps users practice Python with timed questions and automatic results.
 
-**Highlights:**
-- 📝 Dynamic Python quiz questions
-- ⏱️ Timed quiz experience
-- 🧮 Automatic scoring and result display
-- 🎨 Responsive interface for Python learning and practice
 
 **Tech:** Python, Django, HTML, CSS, JavaScript
 
