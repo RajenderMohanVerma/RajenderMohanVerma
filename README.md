@@ -39,10 +39,8 @@
 
 <a id="about"></a>
 
-## 01 / ABOUT
-
 <p align="center">
-  <img src="./assets/about-life.svg?v=1" alt="About, capabilities and interests" width="100%" />
+  <img src="./assets/about-header.svg" alt="01 About Profile" width="100%" />
 </p>
 
 <p align="center">
@@ -63,10 +61,8 @@ I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy b
 
 <a id="stack"></a>
 
-## 02 / STACK
-
 <p align="center">
-  <img src="./assets/stack.svg?v=1" alt="Technology stack" width="100%" />
+  <img src="./assets/stack-header.svg" alt="02 Tech Stack" width="100%" />
 </p>
 
 <p align="center">
@@ -85,10 +81,8 @@ I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy b
 
 <a id="projects"></a>
 
-## 03 / PROJECT LAB
-
 <p align="center">
-  <img src="./assets/projects-header.svg" alt="Featured Projects" width="100%" />
+  <img src="./assets/projects-header.svg" alt="03 Featured Projects" width="100%" />
 </p>
 
 > **Real projects • Practical problems • Full-stack thinking**
@@ -210,10 +204,8 @@ An interactive Django quiz application that helps users practice Python with tim
 
 <a id="credentials"></a>
 
-## 04 / BUILDER CREDENTIALS
-
 <p align="center">
-  <img src="./assets/id-dashboard.svg?v=1" alt="Builder credentials dashboard" width="100%" />
+  <img src="./assets/journey-header.svg" alt="04 Builder Credentials &amp; Growth" width="100%" />
 </p>
 
 ### 🏆 Achievements & Certifications
@@ -266,10 +258,8 @@ An interactive Django quiz application that helps users practice Python with tim
 
 <a id="connect"></a>
 
-## 05 / CONNECT
-
 <p align="center">
-  <img src="./assets/connect.svg?v=1" alt="Connect with Rajender Mohan Verma" width="100%" />
+  <img src="./assets/connect-header.svg" alt="05 Connect" width="100%" />
 </p>
 
 ### Let’s build something great.
