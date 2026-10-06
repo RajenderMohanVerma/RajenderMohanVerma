@@ -1,7 +1,3 @@
-<!-- ========================================================= -->
-<!--                    DEVELOPER PROFILE                        -->
-<!-- ========================================================= -->
-
 <div align="center">
 
 # RAJENDER MOHAN VERMA
@@ -17,8 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="https://rajender-portfolio.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-EXPLORE-5B3CC4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://github.com/RajenderMohanVerma?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-EXPLORE-243B75?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
+  <a href="https://rajender-portfolio.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-EXPLORE-247BFF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/RajenderMohanVerma?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-EXPLORE-111827?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
   <a href="https://www.linkedin.com/in/rajender-mohan-verma-10418432a/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
@@ -33,7 +29,7 @@
   <a href="#about"><img src="https://img.shields.io/badge/01-ABOUT-243B75?style=for-the-badge" alt="About" /></a>
   <a href="#stack"><img src="https://img.shields.io/badge/02-STACK-5B3CC4?style=for-the-badge" alt="Stack" /></a>
   <a href="#projects"><img src="https://img.shields.io/badge/03-PROJECTS-0E7490?style=for-the-badge" alt="Projects" /></a>
-  <a href="#growth"><img src="https://img.shields.io/badge/04-CREDENTIALS-9D174D?style=for-the-badge" alt="Growth" /></a>
+  <a href="#credentials"><img src="https://img.shields.io/badge/04-CREDENTIALS-9D174D?style=for-the-badge" alt="Credentials" /></a>
   <a href="#connect"><img src="https://img.shields.io/badge/05-CONNECT-0F766E?style=for-the-badge" alt="Connect" /></a>
 </p>
 
@@ -53,49 +49,15 @@
   <img src="./assets/profile-snapshot.svg?v=1" alt="Developer snapshot" width="100%" />
 </p>
 
-### 👋 About Me
-
 I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy building practical software solutions, responsive web applications and user-focused digital experiences.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎯 What I Build
-
-- 🚀 Full-stack web applications
-- 🐍 Python and Java software solutions
-- 🗄️ Database-driven systems & REST APIs
-- 💡 Interactive student & community platforms
-- 🧩 Practical problem-solving tools
-- 📦 Reliable, deployable & user-focused products
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 My Direction
 
 - 🎓 **MCA — Currently Pursuing** at **JIMS, Rohini**
 - 🎓 **BCA — Completed** from **Don Bosco Institute of Technology (DBIT), Delhi**
-- 💻 **Full-Stack Development** with modern frameworks
-- 🧠 **DSA & algorithmic problem solving**
-- 🔧 End-to-end frontend, backend, APIs and deployment
-- 🌱 Continuous learning by building and shipping
-
-</td>
-</tr>
-</table>
-
-### ✨ Quick Highlights
-
-- 🌐 **Frontend:** HTML5, CSS3, JavaScript (ES6+), React, Angular, Bootstrap
-- 🐍 **Backend:** Python, Django, Flask, Node.js, Express.js
-- ☕ **Programming Languages:** Python, Java, C++, JavaScript
-- 🗄️ **Databases:** MySQL, PostgreSQL, SQLite, SQL
-- 📱 **Mobile:** Android Development with Java / Kotlin
-- 🧰 **Tools & Workflows:** Git, GitHub, VS Code, Postman, Figma
-- ☁️ **Deployment & Cloud:** Vercel, Render, Streamlit Cloud
-- 📊 **Additional:** Data Structures & Algorithms, MS Excel, basic data analysis
+- 💻 Focused on **Full-Stack Development, Python, Java and Web Technologies**
+- 🧠 Interested in **DSA, problem solving and application development**
+- 🔧 Comfortable with frontend, backend, databases, APIs and deployment
+- 🌱 Continuously learning modern technologies through practical projects
+- 🎯 Goal: Build reliable, scalable and user-friendly software products
 
 ---
 
@@ -107,31 +69,8 @@ I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy b
   <img src="./assets/stack.svg?v=1" alt="Technology stack" width="100%" />
 </p>
 
-### 🛠️ Technology Lab
-
-#### 💻 Programming Languages
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,javascript" alt="Python Java C++ JavaScript" />
-</p>
-
-#### 🌐 Frontend Development
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,react,angular,bootstrap" alt="HTML CSS JavaScript React Angular Bootstrap" />
-</p>
-
-#### 🖥️ Backend & Frameworks
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,flask,nodejs,express" alt="Python Django Flask Node Express" />
-</p>
-
-#### 🗄️ Databases
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgresql,sqlite" alt="MySQL PostgreSQL SQLite" />
-</p>
-
-#### 📱 Mobile • Tools • Deployment
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,git,github,vscode,postman,vercel,figma" alt="Android Studio Kotlin Git GitHub VS Code Postman Vercel Figma" />
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,javascript,html,css,react,angular,bootstrap,django,flask,nodejs,express,mysql,postgres,sqlite,androidstudio,kotlin,git,github,vscode,postman,vercel,figma" alt="Tech Stack Icons" />
 </p>
 
 **Core:** Python • Java • C++ • JavaScript • HTML • CSS
@@ -153,18 +92,6 @@ I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy b
 </p>
 
 > **Real projects • Practical problems • Full-stack thinking**
-
-### 📋 Overview Comparison
-
-| Project | What it does | Stack | Links |
-|---|---|---|---|
-| **Alumni Hub** | Academic community platform connecting students, alumni and faculty | Python, Flask, SocketIO, SQLite, Bootstrap | [Live Demo](https://alumni-hub-195.vercel.app/) · [GitHub](https://github.com/RajenderMohanVerma/dbit-alumni-hub) |
-| **SmartPark** | Parking discovery, reservation, QR check-in/out and management | Flask, SQLAlchemy, PostgreSQL/SQLite, Bootstrap | [Live Demo](https://smart-parking-three-henna.vercel.app/) · [GitHub](https://github.com/RajenderMohanVerma/SmartParking) |
-| **Kabadivala** | Traceable recycling workflow across customer, collector, hub and recycler roles | React, Node, Express, PostgreSQL, Prisma, Gemini Vision | [Live Demo](https://kabadiwala-26.vercel.app/) · [GitHub](https://github.com/RajenderMohanVerma/Kabadiwala) |
-| **AI Resume Analyzer** | Resume upload and AI-assisted structured feedback | Python, Streamlit, AI/ML | [Live Demo](https://ai-resume-analyzer-734.streamlit.app/) · [GitHub](https://github.com/RajenderMohanVerma/AI-Resume-Analyzer) |
-| **Python Quiz App** | Timed Python practice quiz with automatic results | Python, Django, HTML, CSS, JavaScript | [Live Demo](https://python-quiz-three.vercel.app/) · [GitHub](https://github.com/RajenderMohanVerma/Python_Quiz) |
-
----
 
 ### 🎓 01 — Alumni Hub
 
@@ -281,9 +208,9 @@ An interactive Django quiz application that helps users practice Python with tim
 
 ---
 
-<a id="growth"></a>
+<a id="credentials"></a>
 
-## 04 / BUILDER CREDENTIALS & GROWTH
+## 04 / BUILDER CREDENTIALS
 
 <p align="center">
   <img src="./assets/id-dashboard.svg?v=1" alt="Builder credentials dashboard" width="100%" />
@@ -303,16 +230,17 @@ An interactive Django quiz application that helps users practice Python with tim
 - 🧪 **OneRoadmap Frontend Test — 75% Score**
 - 🌐 **SkillCup Community — Google Student Ambassador Session**
 
+### 🎯 Current Focus
+
+- Full-Stack Development
+- Python, Django and Flask
+- Java and problem solving
+- React, Node.js and modern web development
+- Database design and SQL
+- DSA and coding practice
+- Building and deploying practical projects
+
 ### 📊 GitHub Activity
-
-<p align="center">
-  <img src="./assets/github-highlights.svg" alt="GitHub highlights" width="760" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/RajenderMohanVerma?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-EXPLORE-172554?style=for-the-badge&logo=github&logoColor=white" alt="All repositories" /></a>
-  <a href="https://github.com/RajenderMohanVerma"><img src="https://img.shields.io/badge/GITHUB_PROFILE-OPEN-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=RajenderMohanVerma&theme=tokyonight&hide_border=false" alt="GitHub contribution streak" />
@@ -334,38 +262,6 @@ An interactive Django quiz application that helps users practice Python with tim
   </picture>
 </p>
 
-### 🎯 Current Focus
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-- 🔥 Improving **Full-Stack Development**
-- 🐍 Building stronger applications with **Python, Django and Flask**
-- ☕ Strengthening **Java and problem-solving**
-- 🌐 Exploring **React, Node.js and modern web development**
-
-</td>
-<td width="50%" valign="top">
-
-- 🗄️ Improving database design and SQL
-- 🧠 Practicing **DSA and coding problems**
-- 🚀 Building and deploying practical projects
-- 🌱 Continuously learning through implementation
-
-</td>
-</tr>
-</table>
-
-### 💼 Professional Interests
-
-<p align="center">
-  <img src="https://img.shields.io/badge/FULL--STACK-⚡-0891B2?style=for-the-badge" alt="Full Stack Developer" />
-  <img src="https://img.shields.io/badge/PYTHON-🐍-3776AB?style=for-the-badge" alt="Python Developer" />
-  <img src="https://img.shields.io/badge/WEB-🌐-4F46E5?style=for-the-badge" alt="Web Developer" />
-  <img src="https://img.shields.io/badge/JAVA-☕-7C3AED?style=for-the-badge" alt="Java Developer" />
-</p>
-
 ---
 
 <a id="connect"></a>
@@ -376,7 +272,7 @@ An interactive Django quiz application that helps users practice Python with tim
   <img src="./assets/connect.svg?v=1" alt="Connect with Rajender Mohan Verma" width="100%" />
 </p>
 
-### 🤝 Let's Connect
+### Let’s build something great.
 
 <p align="center">
   <a href="mailto:rajendramohan7800@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -386,23 +282,9 @@ An interactive Django quiz application that helps users practice Python with tim
   <a href="https://www.instagram.com/rajender_maurya.01/"><img src="https://img.shields.io/badge/INSTAGRAM-FOLLOW-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
-<table align="center">
-<tr>
-<td align="center"><b>LEARN</b><br/>Keep exploring.</td>
-<td align="center">→</td>
-<td align="center"><b>BUILD</b><br/>Solve real problems.</td>
-<td align="center">→</td>
-<td align="center"><b>SHIP</b><br/>Deploy and improve.</td>
-</tr>
-</table>
-
-### 💭 Development Philosophy
+---
 
 > **Learn → Build → Test → Improve → Deploy → Repeat.**
-
-I believe the best way to learn technology is by building real projects, solving practical problems and continuously improving the quality of the solution.
-
----
 
 <p align="center">
   <b>⭐ Thanks for visiting my GitHub profile! ⭐</b><br/>
