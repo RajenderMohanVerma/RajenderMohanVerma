@@ -262,9 +262,18 @@ An interactive Django quiz application that helps users practice Python with tim
   <img src="./assets/connect-header.svg" alt="05 Connect" width="100%" />
 </p>
 
-### Let’s build something great.
+<table>
+<tr>
+<td width="38%" align="center" valign="middle">
+  <img src="./assets/right_pointing.png" alt="Rajender Mohan Verma pointing right" width="340" />
+</td>
+<td width="62%" valign="middle">
 
-<p align="center">
+### 🤝 Let's build something great together!
+
+I'm always open to discussing new opportunities, full-stack &amp; Python development, student projects, or potential collaborations. Feel free to connect or drop a message!
+
+<p>
   <a href="mailto:rajendramohan7800@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/rajender-mohan-verma-10418432a/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/RajenderMohanVerma"><img src="https://img.shields.io/badge/GITHUB-PROFILE-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
@@ -272,9 +281,11 @@ An interactive Django quiz application that helps users practice Python with tim
   <a href="https://www.instagram.com/rajender_maurya.01/"><img src="https://img.shields.io/badge/INSTAGRAM-FOLLOW-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
----
+> **"Learn → Build → Test → Improve → Deploy → Repeat."**
 
-> **Learn → Build → Test → Improve → Deploy → Repeat.**
+</td>
+</tr>
+</table>
 
 <p align="center">
   <b>⭐ Thanks for visiting my GitHub profile! ⭐</b><br/>
