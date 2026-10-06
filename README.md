@@ -91,15 +91,7 @@ I'm a **BCA graduate** and currently pursuing **MCA at JIMS, Rohini**. I enjoy b
 
 **Alumni Connection Network**
 
-A Flask-based platform connecting students, alumni and faculty through networking, career opportunities and communication.
-
-<table>
-<tr><th>WHAT IT DOES</th><th>FOCUS</th></tr>
-<tr><td>Role-based academic community</td><td>Networking + Communication</td></tr>
-<tr><td>Messaging, connections and career board</td><td>Real-time interaction</td></tr>
-<tr><td>OTP verification, recommendations and notifications</td><td>Security + Smart features</td></tr>
-<tr><td>Admin analytics and CSV reporting</td><td>Management + Insights</td></tr>
-</table>
+A Flask-based community platform connecting students, alumni and faculty through role-based networking, messaging, career opportunities, OTP verification and admin analytics.
 
 **Tech:** Python, Flask, Flask-Login, Flask-SocketIO, SQLite, scikit-learn, NumPy, Bootstrap, JavaScript
 
@@ -114,15 +106,7 @@ A Flask-based platform connecting students, alumni and faculty through networkin
 
 **Smart Parking Management System**
 
-A full-stack parking platform for finding spaces, reserving slots and managing parking entry and exit.
-
-<table>
-<tr><th>WHAT IT DOES</th><th>FOCUS</th></tr>
-<tr><td>Parking search and slot availability</td><td>Smart booking</td></tr>
-<tr><td>Reservations and fee estimation</td><td>Parking workflow</td></tr>
-<tr><td>QR-based passes with check-in/check-out</td><td>Verification</td></tr>
-<tr><td>PDF receipts, history and admin management</td><td>Operations</td></tr>
-</table>
+A full-stack parking management platform for real-time parking search, slot reservations, fee estimations, QR-based check-in/out passes, and PDF receipts.
 
 **Tech:** Python, Flask, SQLAlchemy, PostgreSQL/Neon, SQLite, Bootstrap, JavaScript, QR/PDF generation, Vercel
 
@@ -137,15 +121,7 @@ A full-stack parking platform for finding spaces, reserving slots and managing p
 
 **Traceable Recycling Platform**
 
-A role-based recycling platform connecting customers, collectors, hubs and recyclers from pickup booking to recycling completion.
-
-<table>
-<tr><th>WHAT IT DOES</th><th>FOCUS</th></tr>
-<tr><td>Customer, Collector, Hub, Recycler and Admin workspaces</td><td>Multi-role workflow</td></tr>
-<tr><td>Pickup scheduling and AI-assisted item identification</td><td>Automation + AI</td></tr>
-<tr><td>Weight verification, eco points and complaints</td><td>Trust + Engagement</td></tr>
-<tr><td>QR material handoffs, inventory and certificates</td><td>Traceability</td></tr>
-</table>
+A multi-role recycling platform connecting customers, collectors, hubs and recyclers with pickup scheduling, AI-assisted item identification, weight verification, QR material handoffs, and recycling certificates.
 
 **Tech:** React, Vite, React Router, Node.js, Express.js, PostgreSQL, Prisma, JWT, Zod, Multer, Gemini Vision API, PDF/QR generation, Vercel, Render
 
@@ -160,15 +136,7 @@ A role-based recycling platform connecting customers, collectors, hubs and recyc
 
 **AI-powered Resume Analysis**
 
-An AI-powered web application that analyzes uploaded resumes and provides structured feedback to help users improve them.
-
-<table>
-<tr><th>WHAT IT DOES</th><th>FOCUS</th></tr>
-<tr><td>Resume upload and analysis</td><td>AI-assisted evaluation</td></tr>
-<tr><td>Structured feedback across sections</td><td>Clarity + Quality</td></tr>
-<tr><td>Practical improvement suggestions</td><td>Career readiness</td></tr>
-<tr><td>Simple Streamlit interface</td><td>Accessible UX</td></tr>
-</table>
+An AI-powered web application that analyzes uploaded resumes and provides structured feedback across sections with practical improvement suggestions for career readiness.
 
 **Tech:** Python, Streamlit, AI/ML-based resume analysis
 
@@ -183,15 +151,7 @@ An AI-powered web application that analyzes uploaded resumes and provides struct
 
 **Django-based Python Practice Platform**
 
-An interactive Django quiz application that helps users practice Python with timed questions and automatic results.
-
-<table>
-<tr><th>WHAT IT DOES</th><th>FOCUS</th></tr>
-<tr><td>Dynamic Python quiz questions</td><td>Learning</td></tr>
-<tr><td>Timed quiz experience</td><td>Engagement</td></tr>
-<tr><td>Automatic scoring and results</td><td>Instant feedback</td></tr>
-<tr><td>Responsive learning interface</td><td>Accessibility</td></tr>
-</table>
+An interactive Django quiz application designed for practicing Python concepts with timed multiple-choice questions, instant score calculation, and performance feedback.
 
 **Tech:** Python, Django, HTML, CSS, JavaScript
 
