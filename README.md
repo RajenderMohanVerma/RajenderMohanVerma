@@ -9,7 +9,7 @@
 **MCA Student @ JIMS, Rohini • Full-Stack Software Developer • Python • Java • Web Systems**
 
 <p align="center">
-  <img src="./assets/hero2.svg?v=1" alt="Rajender Mohan Verma Developer Hero" width="100%" />
+  <img src="./assets/hero_2.svg?v=1" alt="Rajender Mohan Verma Developer Hero" width="100%" />
 </p>
 
 <!-- Live Typing Headline -->
