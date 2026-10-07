@@ -55,5 +55,5 @@
 
   <rect x="24" y="340" width="1052" height="2" rx="1" fill="url(#line)" opacity=".8"/>
   <text x="24" y="362" fill="#22D3EE" font-family="Arial,sans-serif" font-size="11" font-weight="700">BUILD • LEARN • DEPLOY</text>
-  <text x="1076" y="362" text-anchor="end" fill="#64748B" font-family="Arial,sans-serif" font-size="10">5 featured projects • Live repository count</text>
+  <text x="1076" y="362" text-anchor="end" fill="#64748B" font-family="Arial,sans-serif" font-size="10">20 public repositories • Live count</text>
 </svg>
